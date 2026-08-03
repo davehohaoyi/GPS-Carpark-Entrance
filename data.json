@@ -13,13 +13,30 @@
       ],
       "address": "313 Orchard Road, S(238895)",
       "ParkingRates": {
-        "Mon": ["07:00", "16:00"],
-        "Tue": "Closed",
-        "Wed": ["07:00", "16:00"],
-        "Thu": ["07:00", "16:00"],
-        "Fri": ["07:00", "16:00"],
-        "Sat": ["07:00", "16:00"],
-        "Sun": ["07:00", "16:00"]
+        "cars": {
+          "weekday": {
+            "days": ["Mon", "Tue", "Wed", "Thu", "Fri"],
+            "firstHour": 1.70,
+            "subsequent": {
+              "rate": 0.85,
+              "perMinutes": 30
+            }
+          },
+          "weekendAndPH": {
+            "days": ["Sat", "Sun", "PH"],
+            "firstHour": 1.85,
+            "subsequent": {
+              "rate": 0.95,
+              "perMinutes": 30
+            }
+          }
+        },
+        "motorcycles": {
+          "daily": {
+            "rate": 1.70,
+            "type": "perEntry"
+          }
+        }
       }
     }
   ]

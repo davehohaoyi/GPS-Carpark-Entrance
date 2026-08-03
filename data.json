@@ -1,1 +1,26 @@
-
+{
+  "carparkname": [
+    {
+      "name": "313 Somerset",
+      "country": "Singapore",
+      "lat": 1.300660,
+      "lng": 103.838027,
+      "capacity": 220,
+      "EVCharging": true,
+      "moreInfo": "https://lifeengrg.blogspot.com/2026/07/blanco-prawn-noodle-house.html",
+      "imgs": [
+        "https://blogger.googleusercontent.com/img/a/AVvXsEge-As2SnFOqXRFjT5LAuYn0TXzv7LcnrKicrRk24a1jNR5vz_djwtPHcUPNlhtrKPv7f_ruK7F2lSqVavJC_H_Hhq7HWl-g0pzRCSaTmWm1ljL2zkygozkAWiV3xe0rGpIiTRIDowUGLrYgiRWFhsnuaxz4jode-ZnRkPAnSQN6Chwlfeg9VUq5XwZnbM"
+      ],
+      "address": "313 Orchard Road, S(238895)",
+      "ParkingRates": {
+        "Mon": ["07:00", "16:00"],
+        "Tue": "Closed",
+        "Wed": ["07:00", "16:00"],
+        "Thu": ["07:00", "16:00"],
+        "Fri": ["07:00", "16:00"],
+        "Sat": ["07:00", "16:00"],
+        "Sun": ["07:00", "16:00"]
+      }
+    }
+  ]
+}

@@ -1,9 +1,51 @@
 {
   "carparkname": [
     {
+      "CarParkID": "TPM",
+      "name": "Toa Payoh Central HDB Carpark",
+      "country": "Singapore",
+      "lat": 1.3324,
+      "lng": 103.8474,
+      "capacity": 450,
+      "EVCharging": true,
+      "is24Hours": true,
+      "imgs": [
+        "https://images.unsplash.com/photo-1506521781263-d8422e82f27a?w=1200"
+      ],
+      "address": "Toa Payoh Central, Singapore"
+    },
+    {
+      "CarParkID": "AM14",
+      "name": "Ang Mo Kio Avenue 3 HDB Carpark",
+      "country": "Singapore",
+      "lat": 1.3691,
+      "lng": 103.8454,
+      "capacity": 320,
+      "EVCharging": false,
+      "is24Hours": true,
+      "imgs": [
+        "https://images.unsplash.com/photo-1506521781263-d8422e82f27a?w=1200"
+      ],
+      "address": "Ang Mo Kio Avenue 3, Singapore"
+    },
+    {
+      "CarParkID": "BE12",
+      "name": "Bedok North Street 3 HDB Carpark",
+      "country": "Singapore",
+      "lat": 1.3329,
+      "lng": 103.9143,
+      "capacity": 380,
+      "EVCharging": true,
+      "is24Hours": true,
+      "imgs": [
+        "https://images.unsplash.com/photo-1506521781263-d8422e82f27a?w=1200"
+      ],
+      "address": "Bedok North Street 3, Singapore"
+    },
+    {
       "name": "313 Somerset",
       "country": "Singapore",
-      "lat": 1.300660,
+      "lat": 1.30066,
       "lng": 103.838027,
       "capacity": 220,
       "EVCharging": true,
@@ -16,7 +58,7 @@
         "cars": {
           "weekday": {
             "days": ["Mon", "Tue", "Wed", "Thu", "Fri"],
-            "firstHour": 1.70,
+            "firstHour": 1.7,
             "subsequent": {
               "rate": 0.85,
               "perMinutes": 30
@@ -33,7 +75,7 @@
         },
         "motorcycles": {
           "daily": {
-            "rate": 1.70,
+            "rate": 1.7,
             "type": "perEntry"
           }
         }

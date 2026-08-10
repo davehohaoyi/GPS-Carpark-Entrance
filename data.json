@@ -45,48 +45,48 @@
       ],
       "address": "Bedok North Street 3, Singapore"
     },
-{
-  "CarParkID": "313S",
-  "provider": "PRIVATE",
-  "name": "313 Somerset",
-  "country": "Singapore",
-  "lat": 1.300660,
-  "lng": 103.838027,
-  "capacity": 220,
-  "EVCharging": true,
-  "is24Hours": true,
-  "address": "313 Orchard Road, Singapore 238895",
-  "imgs": [
-    "https://blogger.googleusercontent.com/img/a/AVvXsEge-As2SnFOqXRFjT5LAuYn0TXzv7LcnrKicrRk24a1jNR5vz_djwtPHcUPNlhtrKPv7f_ruK7F2lSqVavJC_H_Hhq7HWl-g0pzRCSaTmWm1ljL2zkygozkAWiV3xe0rGpIiTRIDowUGLrYgiRWFhsnuaxz4jode-ZnRkPAnSQN6Chwlfeg9VUq5XwZnbM"
-  ],
-  "officialParkingPage": "https://www.313somerset.com.sg/concierge/parking/",
-  "ParkingRates": {
-    "cars": {
-      "monThu": {
-        "days": ["Mon", "Tue", "Wed", "Thu"],
-        "firstHour": 3.05,
-        "subsequent": {
-          "rate": 1.31,
-          "perMinutes": 30
-        }
-      },
-      "friSunAndPH": {
-        "days": ["Fri", "Sat", "Sun", "PH"],
-        "firstHour": 3.27,
-        "subsequent": {
-          "rate": 1.64,
-          "perMinutes": 30
+    {
+      "CarParkID": "313S",
+      "provider": "PRIVATE",
+      "name": "313 Somerset",
+      "country": "Singapore",
+      "lat": 1.30066,
+      "lng": 103.838027,
+      "capacity": 220,
+      "EVCharging": true,
+      "is24Hours": true,
+      "address": "313 Orchard Road, Singapore 238895",
+      "imgs": [
+        "https://blogger.googleusercontent.com/img/a/AVvXsEge-As2SnFOqXRFjT5LAuYn0TXzv7LcnrKicrRk24a1jNR5vz_djwtPHcUPNlhtrKPv7f_ruK7F2lSqVavJC_H_Hhq7HWl-g0pzRCSaTmWm1ljL2zkygozkAWiV3xe0rGpIiTRIDowUGLrYgiRWFhsnuaxz4jode-ZnRkPAnSQN6Chwlfeg9VUq5XwZnbM"
+      ],
+      "officialParkingPage": "https://www.313somerset.com.sg/concierge/parking/",
+      "ParkingRates": {
+        "cars": {
+          "monThu": {
+            "days": ["Mon", "Tue", "Wed", "Thu"],
+            "firstHour": 3.05,
+            "subsequent": {
+              "rate": 1.31,
+              "perMinutes": 30
+            }
+          },
+          "friSunAndPH": {
+            "days": ["Fri", "Sat", "Sun", "PH"],
+            "firstHour": 3.27,
+            "subsequent": {
+              "rate": 1.64,
+              "perMinutes": 30
+            }
+          }
+        },
+        "motorcycles": {
+          "hourly": {
+            "rate": 1.64,
+            "type": "perHourOrPartThereof"
+          }
         }
       }
     },
-    "motorcycles": {
-      "hourly": {
-        "rate": 1.64,
-        "type": "perHourOrPartThereof"
-      }
-    }
-  }
-},
     {
       "CarParkID": "S0108",
       "provider": "URA",

@@ -2,10 +2,11 @@
   "carparkname": [
     {
       "CarParkID": "TPM",
+      "provider": "HDB",
       "name": "Toa Payoh Central HDB Carpark",
       "country": "Singapore",
-      "lat": 1.3324,
-      "lng": 103.8474,
+      "lat": 1.332400,
+      "lng": 103.847400,
       "capacity": 450,
       "EVCharging": true,
       "is24Hours": true,
@@ -16,10 +17,11 @@
     },
     {
       "CarParkID": "AM14",
+      "provider": "HDB",
       "name": "Ang Mo Kio Avenue 3 HDB Carpark",
       "country": "Singapore",
-      "lat": 1.3691,
-      "lng": 103.8454,
+      "lat": 1.369100,
+      "lng": 103.845400,
       "capacity": 320,
       "EVCharging": false,
       "is24Hours": true,
@@ -30,10 +32,11 @@
     },
     {
       "CarParkID": "BE12",
+      "provider": "HDB",
       "name": "Bedok North Street 3 HDB Carpark",
       "country": "Singapore",
-      "lat": 1.3329,
-      "lng": 103.9143,
+      "lat": 1.332900,
+      "lng": 103.914300,
       "capacity": 380,
       "EVCharging": true,
       "is24Hours": true,
@@ -43,12 +46,16 @@
       "address": "Bedok North Street 3, Singapore"
     },
     {
+      "CarParkID": "313S",
+      "provider": "URA",
+      "uraCarparkNo": "S0108",
       "name": "313 Somerset",
       "country": "Singapore",
-      "lat": 1.30066,
+      "lat": 1.300660,
       "lng": 103.838027,
       "capacity": 220,
       "EVCharging": true,
+      "is24Hours": true,
       "moreInfo": "https://lifeengrg.blogspot.com/2026/07/blanco-prawn-noodle-house.html",
       "imgs": [
         "https://blogger.googleusercontent.com/img/a/AVvXsEge-As2SnFOqXRFjT5LAuYn0TXzv7LcnrKicrRk24a1jNR5vz_djwtPHcUPNlhtrKPv7f_ruK7F2lSqVavJC_H_Hhq7HWl-g0pzRCSaTmWm1ljL2zkygozkAWiV3xe0rGpIiTRIDowUGLrYgiRWFhsnuaxz4jode-ZnRkPAnSQN6Chwlfeg9VUq5XwZnbM"
@@ -58,7 +65,7 @@
         "cars": {
           "weekday": {
             "days": ["Mon", "Tue", "Wed", "Thu", "Fri"],
-            "firstHour": 1.7,
+            "firstHour": 1.70,
             "subsequent": {
               "rate": 0.85,
               "perMinutes": 30
@@ -75,7 +82,7 @@
         },
         "motorcycles": {
           "daily": {
-            "rate": 1.7,
+            "rate": 1.70,
             "type": "perEntry"
           }
         }

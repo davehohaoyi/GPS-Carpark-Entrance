@@ -4,14 +4,13 @@
     "provider": "PRIVATE",
     "name": "313 Somerset",
     "country": "Singapore",
-    "lat": 1.300660,
+    "lat": 1.30066,
     "lng": 103.838027,
     "capacity": 220,
     "EVCharging": true,
     "is24Hours": true,
     "address": "313 Orchard Road, Singapore 238895",
     "officialParkingPage": "https://www.313somerset.com.sg/concierge/parking/",
-
     "photos": [
       {
         "type": "image",
@@ -20,7 +19,7 @@
       },
       {
         "type": "streetview",
-        "embedUrl": "https://www.google.com/maps/place/313@somerset/@1.300172,103.8397483,3a,75y,16.09h,95.69t/data=!3m7!1e1!3m5!1s-BM5x6bPUAjB1EnZzF-cEg!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-5.694772105089925%26panoid%3D-BM5x6bPUAjB1EnZzF-cEg%26yaw%3D16.088936390706895!7i16384!8i8192!4m6!3m5!1s0x31da199127c62a1d:0xe42abb67cad4364f!8m2!3d1.3010451!4d103.8385792!16s%2Fm%2F0p3m6pk?entry=ttu&g_ep=EgoyMDI2MDgwNS4xIKXMDSoASAFQAw%3D%3D",
+        "embedUrl": "https://www.google.com/maps/place/313@somerset/@1.300172,103.8397483,3a,75y,16.09h,95.69t/data=!3m7",
         "caption": "Google Street View"
       }
     ]

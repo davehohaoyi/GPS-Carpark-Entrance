@@ -10,8 +10,7 @@
     "EVCharging": true,
     "is24Hours": true,
     "address": "313 Orchard Road, Singapore 238895",
-    "officialParkingPage": "https://www.313somerset.com.sg/concierge/parking/",
-
+    "entranceType": "carpark",
     "photos": [
       {
         "type": "image",

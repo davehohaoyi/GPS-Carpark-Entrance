@@ -19,7 +19,7 @@
       },
       {
         "type": "streetview",
-        "embedUrl": "https://www.google.com/maps/place/313@somerset/@1.300172,103.8397483,3a,75y,16.09h,95.69t/data=!3m7",
+        "embedUrl": "https://www.google.com/maps/embed?pb=!4v1754910000000!6m8!1m7!1s-BM5x6bPUAjB1EnZzF-cEg!2m2!1d1.300172!2d103.8397483!3f16.09!4f0!5f0.7820865974627469",
         "caption": "Google Street View"
       }
     ]

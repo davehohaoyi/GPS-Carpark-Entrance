@@ -26,6 +26,8 @@
     ],
 
     "ParkingRates": {
+      "gracePeriodMinutes": 15,
+      
       "weekday": [
         {
           "from": "07:00",

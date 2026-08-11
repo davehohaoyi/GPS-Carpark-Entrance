@@ -1,115 +1,30 @@
-{
-  "CarParkID": "313S",
-  "provider": "PRIVATE",
-  "name": "313 Somerset",
-  "country": "Singapore",
-  "lat": 1.300660,
-  "lng": 103.838027,
-  "capacity": 220,
-  "EVCharging": true,
-  "is24Hours": true,
-  "address": "313 Orchard Road, Singapore 238895",
-  "officialParkingPage": "https://www.313somerset.com.sg/concierge/parking/",
-
-  "photos": [
-    {
-      "type": "image",
-      "url": "https://yourdomain.com/images/313-entrance-1.jpg",
-      "caption": "Main entrance from Orchard Road"
-    },
-    {
-      "type": "streetview",
-      "embedUrl": "https://www.google.com/maps/embed?pb=...",
-      "caption": "Google Street View"
+[
+  {
+    "CarParkID": "313S",
+    "provider": "PRIVATE",
+    "name": "313 Somerset",
+    "country": "Singapore",
+    "lat": 1.300660,
+    "lng": 103.838027,
+    "capacity": 220,
+    "EVCharging": true,
+    "is24Hours": true,
+    "address": "313 Orchard Road, Singapore 238895",
+    "officialParkingPage": "https://www.313somerset.com.sg/concierge/parking/",
+    "photos": [
+      {
+        "type": "image",
+        "url": "https://yourdomain.com/images/313-entrance-1.jpg",
+        "caption": "Main entrance from Orchard Road"
+      }
+    ],
+    "ParkingRates": {
+      "weekday": [
+        { "from": "07:00", "to": "08:30", "billing": "free" },
+        { "from": "08:30", "to": "17:00", "billing": "interval", "rate": 1.2, "intervalMinutes": 30, "rounding": "up" },
+        { "from": "17:00", "to": "22:00", "billing": "interval", "rate": 0.6, "intervalMinutes": 30, "rounding": "up" },
+        { "from": "22:00", "to": "07:00", "billing": "free" }
+      ]
     }
-  ],
-
-  "ParkingRates": {
-    "weekday": [
-      {
-        "from": "07:00",
-        "to": "08:30",
-        "billing": "free"
-      },
-      {
-        "from": "08:30",
-        "to": "17:00",
-        "billing": "interval",
-        "rate": 1.20,
-        "intervalMinutes": 30,
-        "rounding": "up"
-      },
-      {
-        "from": "17:00",
-        "to": "22:00",
-        "billing": "interval",
-        "rate": 0.60,
-        "intervalMinutes": 30,
-        "rounding": "up"
-      },
-      {
-        "from": "22:00",
-        "to": "07:00",
-        "billing": "free"
-      }
-    ],
-
-    "saturday": [
-      {
-        "from": "07:00",
-        "to": "08:30",
-        "billing": "free"
-      },
-      {
-        "from": "08:30",
-        "to": "17:00",
-        "billing": "interval",
-        "rate": 1.20,
-        "intervalMinutes": 30,
-        "rounding": "up"
-      },
-      {
-        "from": "17:00",
-        "to": "22:00",
-        "billing": "interval",
-        "rate": 0.60,
-        "intervalMinutes": 30,
-        "rounding": "up"
-      },
-      {
-        "from": "22:00",
-        "to": "07:00",
-        "billing": "free"
-      }
-    ],
-
-    "sundayPH": [
-      {
-        "from": "07:00",
-        "to": "08:30",
-        "billing": "free"
-      },
-      {
-        "from": "08:30",
-        "to": "17:00",
-        "billing": "interval",
-        "rate": 0.60,
-        "intervalMinutes": 30,
-        "rounding": "up"
-      },
-      {
-        "from": "17:00",
-        "to": "22:00",
-        "billing": "interval",
-        "rate": 0.60,
-        "intervalMinutes": 30,
-        "rounding": "up"
-      },
-      {
-        "from": "22:00",
-        "to": "07:00",
-        "billing": "free"
-      }
-    ]
   }
-}
+]

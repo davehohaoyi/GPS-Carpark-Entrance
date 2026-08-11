@@ -1,107 +1,115 @@
 {
-  "carparkname": [
+  "CarParkID": "313S",
+  "provider": "PRIVATE",
+  "name": "313 Somerset",
+  "country": "Singapore",
+  "lat": 1.300660,
+  "lng": 103.838027,
+  "capacity": 220,
+  "EVCharging": true,
+  "is24Hours": true,
+  "address": "313 Orchard Road, Singapore 238895",
+  "officialParkingPage": "https://www.313somerset.com.sg/concierge/parking/",
+
+  "photos": [
     {
-      "CarParkID": "TPM",
-      "provider": "HDB",
-      "name": "Toa Payoh Central HDB Carpark",
-      "country": "Singapore",
-      "lat": 1.3324,
-      "lng": 103.8474,
-      "capacity": 450,
-      "EVCharging": true,
-      "is24Hours": true,
-      "imgs": [
-        "https://images.unsplash.com/photo-1506521781263-d8422e82f27a?w=1200"
-      ],
-      "address": "Toa Payoh Central, Singapore"
+      "type": "image",
+      "url": "https://yourdomain.com/images/313-entrance-1.jpg",
+      "caption": "Main entrance from Orchard Road"
     },
     {
-      "CarParkID": "AM14",
-      "provider": "HDB",
-      "name": "Ang Mo Kio Avenue 3 HDB Carpark",
-      "country": "Singapore",
-      "lat": 1.3691,
-      "lng": 103.8454,
-      "capacity": 320,
-      "EVCharging": false,
-      "is24Hours": true,
-      "imgs": [
-        "https://images.unsplash.com/photo-1506521781263-d8422e82f27a?w=1200"
-      ],
-      "address": "Ang Mo Kio Avenue 3, Singapore"
-    },
-    {
-      "CarParkID": "BE12",
-      "provider": "HDB",
-      "name": "Bedok North Street 3 HDB Carpark",
-      "country": "Singapore",
-      "lat": 1.3329,
-      "lng": 103.9143,
-      "capacity": 380,
-      "EVCharging": true,
-      "is24Hours": true,
-      "imgs": [
-        "https://images.unsplash.com/photo-1506521781263-d8422e82f27a?w=1200"
-      ],
-      "address": "Bedok North Street 3, Singapore"
-    },
-    {
-      "CarParkID": "313S",
-      "provider": "PRIVATE",
-      "name": "313 Somerset",
-      "country": "Singapore",
-      "lat": 1.30066,
-      "lng": 103.838027,
-      "capacity": 220,
-      "EVCharging": true,
-      "is24Hours": true,
-      "address": "313 Orchard Road, Singapore 238895",
-      "imgs": [
-        "https://blogger.googleusercontent.com/img/a/AVvXsEge-As2SnFOqXRFjT5LAuYn0TXzv7LcnrKicrRk24a1jNR5vz_djwtPHcUPNlhtrKPv7f_ruK7F2lSqVavJC_H_Hhq7HWl-g0pzRCSaTmWm1ljL2zkygozkAWiV3xe0rGpIiTRIDowUGLrYgiRWFhsnuaxz4jode-ZnRkPAnSQN6Chwlfeg9VUq5XwZnbM"
-      ],
-      "officialParkingPage": "https://www.313somerset.com.sg/concierge/parking/",
-      "ParkingRates": {
-        "cars": {
-          "monThu": {
-            "days": ["Mon", "Tue", "Wed", "Thu"],
-            "firstHour": 3.05,
-            "subsequent": {
-              "rate": 1.31,
-              "perMinutes": 30
-            }
-          },
-          "friSunAndPH": {
-            "days": ["Fri", "Sat", "Sun", "PH"],
-            "firstHour": 3.27,
-            "subsequent": {
-              "rate": 1.64,
-              "perMinutes": 30
-            }
-          }
-        },
-        "motorcycles": {
-          "hourly": {
-            "rate": 1.64,
-            "type": "perHourOrPartThereof"
-          }
-        }
-      }
-    },
-    {
-      "CarParkID": "S0108",
-      "provider": "URA",
-      "uraCarparkNo": "S0108",
-      "name": "URA Roadside Car Park S0108",
-      "country": "Singapore",
-      "lat": 1.2966,
-      "lng": 103.8547,
-      "capacity": 60,
-      "EVCharging": false,
-      "is24Hours": true,
-      "address": "Bras Basah / City Hall Area, Singapore",
-      "imgs": [
-        "https://images.unsplash.com/photo-1506521781263-d8422e82f27a?w=1200"
-      ]
+      "type": "streetview",
+      "embedUrl": "https://www.google.com/maps/embed?pb=...",
+      "caption": "Google Street View"
     }
-  ]
+  ],
+
+  "ParkingRates": {
+    "weekday": [
+      {
+        "from": "07:00",
+        "to": "08:30",
+        "billing": "free"
+      },
+      {
+        "from": "08:30",
+        "to": "17:00",
+        "billing": "interval",
+        "rate": 1.20,
+        "intervalMinutes": 30,
+        "rounding": "up"
+      },
+      {
+        "from": "17:00",
+        "to": "22:00",
+        "billing": "interval",
+        "rate": 0.60,
+        "intervalMinutes": 30,
+        "rounding": "up"
+      },
+      {
+        "from": "22:00",
+        "to": "07:00",
+        "billing": "free"
+      }
+    ],
+
+    "saturday": [
+      {
+        "from": "07:00",
+        "to": "08:30",
+        "billing": "free"
+      },
+      {
+        "from": "08:30",
+        "to": "17:00",
+        "billing": "interval",
+        "rate": 1.20,
+        "intervalMinutes": 30,
+        "rounding": "up"
+      },
+      {
+        "from": "17:00",
+        "to": "22:00",
+        "billing": "interval",
+        "rate": 0.60,
+        "intervalMinutes": 30,
+        "rounding": "up"
+      },
+      {
+        "from": "22:00",
+        "to": "07:00",
+        "billing": "free"
+      }
+    ],
+
+    "sundayPH": [
+      {
+        "from": "07:00",
+        "to": "08:30",
+        "billing": "free"
+      },
+      {
+        "from": "08:30",
+        "to": "17:00",
+        "billing": "interval",
+        "rate": 0.60,
+        "intervalMinutes": 30,
+        "rounding": "up"
+      },
+      {
+        "from": "17:00",
+        "to": "22:00",
+        "billing": "interval",
+        "rate": 0.60,
+        "intervalMinutes": 30,
+        "rounding": "up"
+      },
+      {
+        "from": "22:00",
+        "to": "07:00",
+        "billing": "free"
+      }
+    ]
+  }
 }

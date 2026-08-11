@@ -1,108 +1,168 @@
 [
-  {
-    "CarParkID": "313S",
-    "provider": "PRIVATE",
-    "name": "313 Somerset",
-    "country": "Singapore",
-    "lat": 1.300660,
-    "lng": 103.838027,
-    "capacity": 220,
-    "EVCharging": true,
-    "is24Hours": true,
-    "address": "313 Orchard Road, Singapore 238895",
-    "entranceType": "carpark",
-    "photos": [
-      {
-        "type": "image",
-        "url": "https://blogger.googleusercontent.com/img/a/AVvXsEhQ-p17zCW4yRg-pv-wEFLLbDLvs7HlTNV_Z_W0etkcFd1hbcdGYj4JShlSkG9UjkycNSRHxw5bCkSW2bToqrbGh_0QIJDgxIsnPlI7TJ5uSpOOjegA_x-gUdBxrfF_BscPZ3DpUxxj5FLkhiWhWeMzcgb_XeVWDxXntWtj4kvccYu3eh3opbwafLfUKww=s1600",
-        "caption": "Main entrance from Orchard Road"
-      },
-      {
-        "type": "streetview",
-        "embedUrl": "https://www.google.com/maps/embed?pb=!4v1754910000000!6m8!1m7!1s-BM5x6bPUAjB1EnZzF-cEg!2m2!1d1.300172!2d103.8397483!3f16.09!4f0!5f0.7820865974627469",
-        "caption": "Google Street View"
-      }
-    ],
-
-    "ParkingRates": {
-      "gracePeriodMinutes": 15,
-      
-      "weekday": [
-        {
-          "from": "07:00",
-          "to": "08:30",
-          "billing": "free"
-        },
-        {
-          "from": "08:30",
-          "to": "17:00",
-          "billing": "interval",
-          "rate": 1.20,
-          "intervalMinutes": 30,
-          "rounding": "up"
-        },
-        {
-          "from": "17:00",
-          "to": "22:00",
-          "billing": "interval",
-          "rate": 0.60,
-          "intervalMinutes": 30,
-          "rounding": "up"
-        },
-        {
-          "from": "22:00",
-          "to": "07:00",
-          "billing": "free"
-        }
-      ],
-
-      "saturday": [
-        {
-          "from": "07:00",
-          "to": "22:00",
-          "billing": "interval",
-          "rate": 1.50,
-          "intervalMinutes": 30,
-          "rounding": "up"
-        },
-        {
-          "from": "22:00",
-          "to": "07:00",
-          "billing": "free"
-        }
-      ],
-
-      "sunday": [
-        {
-          "from": "07:00",
-          "to": "22:00",
-          "billing": "interval",
-          "rate": 1.50,
-          "intervalMinutes": 30,
-          "rounding": "up"
-        },
-        {
-          "from": "22:00",
-          "to": "07:00",
-          "billing": "free"
-        }
-      ],
-
-      "publicHoliday": [
-        {
-          "from": "07:00",
-          "to": "22:00",
-          "billing": "interval",
-          "rate": 1.50,
-          "intervalMinutes": 30,
-          "rounding": "up"
-        },
-        {
-          "from": "22:00",
-          "to": "07:00",
-          "billing": "free"
-        }
-      ]
-    }
-  }
+{
+"CarParkID": "313S",
+"provider": "PRIVATE",
+"name": "313 Somerset",
+"country": "Singapore",
+"lat": 1.300660,
+"lng": 103.838027,
+"capacity": 220,
+"EVCharging": true,
+"is24Hours": true,
+"address": "313 Orchard Road, Singapore 238895",
+"entranceType": "carpark",
+"photos": [
+{
+"type": "image",
+"url": "https://blogger.googleusercontent.com/img/a/AVvXsEhQ-p17zCW4yRg-pv-wEFLLbDLvs7HlTNV_Z_W0etkcFd1hbcdGYj4JShlSkG9UjkycNSRHxw5bCkSW2bToqrbGh_0QIJDgxIsnPlI7TJ5uSpOOjegA_x-gUdBxrfF_BscPZ3DpUxxj5FLkhiWhWeMzcgb_XeVWDxXntWtj4kvccYu3eh3opbwafLfUKww=s1600",
+"caption": "Main entrance from Orchard Road"
+},
+{
+"type": "streetview",
+"embedUrl": "https://www.google.com/maps/embed?pb=!4v1754910000000!6m8!1m7!1s-BM5x6bPUAjB1EnZzF-cEg!2m2!1d1.300172!2d103.8397483!3f16.09!4f0!5f0.7820865974627469",
+"caption": "Google Street View"
+}
+],
+"ParkingRates": {
+"gracePeriodMinutes": 15,
+"weekday": [
+{ "from": "07:00", "to": "08:30", "billing": "free" },
+{ "from": "08:30", "to": "17:00", "billing": "interval", "rate": 1.20, "intervalMinutes": 30, "rounding": "up" },
+{ "from": "17:00", "to": "22:00", "billing": "interval", "rate": 0.60, "intervalMinutes": 30, "rounding": "up" },
+{ "from": "22:00", "to": "07:00", "billing": "free" }
+],
+"saturday": [
+{ "from": "07:00", "to": "22:00", "billing": "interval", "rate": 1.50, "intervalMinutes": 30, "rounding": "up" },
+{ "from": "22:00", "to": "07:00", "billing": "free" }
+],
+"sunday": [
+{ "from": "07:00", "to": "22:00", "billing": "interval", "rate": 1.50, "intervalMinutes": 30, "rounding": "up" },
+{ "from": "22:00", "to": "07:00", "billing": "free" }
+],
+"publicHoliday": [
+{ "from": "07:00", "to": "22:00", "billing": "interval", "rate": 1.50, "intervalMinutes": 30, "rounding": "up" },
+{ "from": "22:00", "to": "07:00", "billing": "free" }
+]
+}
+},
+{
+"CarParkID": "ION",
+"provider": "PRIVATE",
+"name": "ION Orchard",
+"country": "Singapore",
+"lat": 1.304833,
+"lng": 103.831833,
+"capacity": 700,
+"EVCharging": true,
+"is24Hours": true,
+"address": "2 Orchard Turn, Singapore 238801",
+"entranceType": "carpark",
+"photos": [],
+"ParkingRates": {}
+},
+{
+"CarParkID": "NAC",
+"provider": "PRIVATE",
+"name": "Ngee Ann City",
+"country": "Singapore",
+"lat": 1.302412,
+"lng": 103.833037,
+"capacity": 900,
+"EVCharging": true,
+"is24Hours": true,
+"address": "391 Orchard Road, Singapore 238872",
+"entranceType": "carpark",
+"photos": [],
+"ParkingRates": {}
+},
+{
+"CarParkID": "WIS",
+"provider": "PRIVATE",
+"name": "Wisma Atria",
+"country": "Singapore",
+"lat": 1.303995,
+"lng": 103.833674,
+"capacity": 600,
+"EVCharging": true,
+"is24Hours": true,
+"address": "435 Orchard Road, Singapore 238877",
+"entranceType": "carpark",
+"photos": [],
+"ParkingRates": {}
+},
+{
+"CarParkID": "PAR",
+"provider": "PRIVATE",
+"name": "Paragon",
+"country": "Singapore",
+"lat": 1.304368,
+"lng": 103.835040,
+"capacity": 450,
+"EVCharging": true,
+"is24Hours": true,
+"address": "290 Orchard Road, Singapore 238859",
+"entranceType": "carpark",
+"photos": [],
+"ParkingRates": {}
+},
+{
+"CarParkID": "OCS",
+"provider": "PRIVATE",
+"name": "Orchard Central",
+"country": "Singapore",
+"lat": 1.300887,
+"lng": 103.839069,
+"capacity": 300,
+"EVCharging": true,
+"is24Hours": true,
+"address": "181 Orchard Road, Singapore 238896",
+"entranceType": "carpark",
+"photos": [],
+"ParkingRates": {}
+},
+{
+"CarParkID": "CPT",
+"provider": "PRIVATE",
+"name": "The Centrepoint",
+"country": "Singapore",
+"lat": 1.301447,
+"lng": 103.839975,
+"capacity": 350,
+"EVCharging": false,
+"is24Hours": true,
+"address": "176 Orchard Road, Singapore 238843",
+"entranceType": "carpark",
+"photos": [],
+"ParkingRates": {}
+},
+{
+"CarParkID": "PSG",
+"provider": "PRIVATE",
+"name": "Plaza Singapura",
+"country": "Singapore",
+"lat": 1.300998,
+"lng": 103.845182,
+"capacity": 900,
+"EVCharging": true,
+"is24Hours": true,
+"address": "68 Orchard Road, Singapore 238839",
+"entranceType": "carpark",
+"photos": [],
+"ParkingRates": {}
+},
+{
+"CarParkID": "OGW",
+"provider": "PRIVATE",
+"name": "Orchard Gateway",
+"country": "Singapore",
+"lat": 1.299900,
+"lng": 103.839900,
+"capacity": 260,
+"EVCharging": true,
+"is24Hours": true,
+"address": "277 Orchard Road, Singapore 238858",
+"entranceType": "carpark",
+"photos": [],
+"ParkingRates": {}
+}
 ]

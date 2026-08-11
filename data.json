@@ -11,18 +11,7 @@
 "is24Hours": true,
 "address": "313 Orchard Road, Singapore 238895",
 "entranceType": "carpark",
-"photos": [
-{
-"type": "image",
-"url": "https://blogger.googleusercontent.com/img/a/AVvXsEhQ-p17zCW4yRg-pv-wEFLLbDLvs7HlTNV_Z_W0etkcFd1hbcdGYj4JShlSkG9UjkycNSRHxw5bCkSW2bToqrbGh_0QIJDgxIsnPlI7TJ5uSpOOjegA_x-gUdBxrfF_BscPZ3DpUxxj5FLkhiWhWeMzcgb_XeVWDxXntWtj4kvccYu3eh3opbwafLfUKww=s1600",
-"caption": "Main entrance from Orchard Road"
-},
-{
-"type": "streetview",
-"embedUrl": "https://www.google.com/maps/embed?pb=!4v1754910000000!6m8!1m7!1s-BM5x6bPUAjB1EnZzF-cEg!2m2!1d1.300172!2d103.8397483!3f16.09!4f0!5f0.7820865974627469",
-"caption": "Google Street View"
-}
-],
+"photos": [],
 "ParkingRates": {
 "gracePeriodMinutes": 15,
 "weekday": [
@@ -58,82 +47,22 @@
 "address": "2 Orchard Turn, Singapore 238801",
 "entranceType": "carpark",
 "photos": [],
-"ParkingRates": {}
-},
-{
-"CarParkID": "NAC",
-"provider": "PRIVATE",
-"name": "Ngee Ann City",
-"country": "Singapore",
-"lat": 1.302412,
-"lng": 103.833037,
-"capacity": 900,
-"EVCharging": true,
-"is24Hours": true,
-"address": "391 Orchard Road, Singapore 238872",
-"entranceType": "carpark",
-"photos": [],
-"ParkingRates": {}
-},
-{
-"CarParkID": "WIS",
-"provider": "PRIVATE",
-"name": "Wisma Atria",
-"country": "Singapore",
-"lat": 1.303995,
-"lng": 103.833674,
-"capacity": 600,
-"EVCharging": true,
-"is24Hours": true,
-"address": "435 Orchard Road, Singapore 238877",
-"entranceType": "carpark",
-"photos": [],
-"ParkingRates": {}
-},
-{
-"CarParkID": "PAR",
-"provider": "PRIVATE",
-"name": "Paragon",
-"country": "Singapore",
-"lat": 1.304368,
-"lng": 103.835040,
-"capacity": 450,
-"EVCharging": true,
-"is24Hours": true,
-"address": "290 Orchard Road, Singapore 238859",
-"entranceType": "carpark",
-"photos": [],
-"ParkingRates": {}
-},
-{
-"CarParkID": "OCS",
-"provider": "PRIVATE",
-"name": "Orchard Central",
-"country": "Singapore",
-"lat": 1.300887,
-"lng": 103.839069,
-"capacity": 300,
-"EVCharging": true,
-"is24Hours": true,
-"address": "181 Orchard Road, Singapore 238896",
-"entranceType": "carpark",
-"photos": [],
-"ParkingRates": {}
-},
-{
-"CarParkID": "CPT",
-"provider": "PRIVATE",
-"name": "The Centrepoint",
-"country": "Singapore",
-"lat": 1.301447,
-"lng": 103.839975,
-"capacity": 350,
-"EVCharging": false,
-"is24Hours": true,
-"address": "176 Orchard Road, Singapore 238843",
-"entranceType": "carpark",
-"photos": [],
-"ParkingRates": {}
+"ParkingRates": {
+"gracePeriodMinutes": 10,
+"weekday": [
+{ "from": "00:00", "to": "18:00", "billing": "interval", "rate": 1.80, "intervalMinutes": 30, "rounding": "up" },
+{ "from": "18:00", "to": "00:00", "billing": "interval", "rate": 2.00, "intervalMinutes": 30, "rounding": "up" }
+],
+"saturday": [
+{ "from": "00:00", "to": "00:00", "billing": "interval", "rate": 2.20, "intervalMinutes": 30, "rounding": "up" }
+],
+"sunday": [
+{ "from": "00:00", "to": "00:00", "billing": "interval", "rate": 2.20, "intervalMinutes": 30, "rounding": "up" }
+],
+"publicHoliday": [
+{ "from": "00:00", "to": "00:00", "billing": "interval", "rate": 2.20, "intervalMinutes": 30, "rounding": "up" }
+]
+}
 },
 {
 "CarParkID": "PSG",
@@ -148,21 +77,78 @@
 "address": "68 Orchard Road, Singapore 238839",
 "entranceType": "carpark",
 "photos": [],
-"ParkingRates": {}
+"ParkingRates": {
+"gracePeriodMinutes": 20,
+"weekday": [
+{ "from": "00:00", "to": "00:00", "billing": "interval", "rate": 1.60, "intervalMinutes": 30, "rounding": "up" }
+],
+"saturday": [
+{ "from": "00:00", "to": "00:00", "billing": "interval", "rate": 1.80, "intervalMinutes": 30, "rounding": "up" }
+],
+"sunday": [
+{ "from": "00:00", "to": "00:00", "billing": "interval", "rate": 1.80, "intervalMinutes": 30, "rounding": "up" }
+],
+"publicHoliday": [
+{ "from": "00:00", "to": "00:00", "billing": "interval", "rate": 1.80, "intervalMinutes": 30, "rounding": "up" }
+]
+}
 },
 {
-"CarParkID": "OGW",
+"CarParkID": "VIVO",
 "provider": "PRIVATE",
-"name": "Orchard Gateway",
+"name": "VivoCity",
 "country": "Singapore",
-"lat": 1.299900,
-"lng": 103.839900,
-"capacity": 260,
+"lat": 1.264420,
+"lng": 103.822760,
+"capacity": 2000,
 "EVCharging": true,
 "is24Hours": true,
-"address": "277 Orchard Road, Singapore 238858",
+"address": "1 HarbourFront Walk, Singapore 098585",
 "entranceType": "carpark",
 "photos": [],
-"ParkingRates": {}
+"ParkingRates": {
+"gracePeriodMinutes": 15,
+"weekday": [
+{ "from": "00:00", "to": "00:00", "billing": "interval", "rate": 1.40, "intervalMinutes": 30, "rounding": "up" }
+],
+"saturday": [
+{ "from": "00:00", "to": "00:00", "billing": "interval", "rate": 1.60, "intervalMinutes": 30, "rounding": "up" }
+],
+"sunday": [
+{ "from": "00:00", "to": "00:00", "billing": "interval", "rate": 1.60, "intervalMinutes": 30, "rounding": "up" }
+],
+"publicHoliday": [
+{ "from": "00:00", "to": "00:00", "billing": "interval", "rate": 1.60, "intervalMinutes": 30, "rounding": "up" }
+]
+}
+},
+{
+"CarParkID": "JEM",
+"provider": "PRIVATE",
+"name": "JEM",
+"country": "Singapore",
+"lat": 1.333140,
+"lng": 103.743600,
+"capacity": 900,
+"EVCharging": true,
+"is24Hours": true,
+"address": "50 Jurong Gateway Road, Singapore 608549",
+"entranceType": "carpark",
+"photos": [],
+"ParkingRates": {
+"gracePeriodMinutes": 15,
+"weekday": [
+{ "from": "00:00", "to": "00:00", "billing": "interval", "rate": 1.30, "intervalMinutes": 30, "rounding": "up" }
+],
+"saturday": [
+{ "from": "00:00", "to": "00:00", "billing": "interval", "rate": 1.50, "intervalMinutes": 30, "rounding": "up" }
+],
+"sunday": [
+{ "from": "00:00", "to": "00:00", "billing": "interval", "rate": 1.50, "intervalMinutes": 30, "rounding": "up" }
+],
+"publicHoliday": [
+{ "from": "00:00", "to": "00:00", "billing": "interval", "rate": 1.50, "intervalMinutes": 30, "rounding": "up" }
+]
+}
 }
 ]

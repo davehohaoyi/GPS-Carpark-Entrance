@@ -1,38 +1,364 @@
-Pasted text(20260823-133748).txt
-Document
-Why the parking rate calcuation keep on got problem
-
-Is the JSON or HTML or both got problem
-
-Fix everything
-Is the problem with the JSON or HTML?
-
-Both needed improvement:
-
-JSON: 313 Somerset’s free parking was written as "billing": "0.00" instead of the clearer "billing": "free".
-HTML: The calculator was vulnerable to inconsistent rate formats, overnight periods, and outdated cached JSON.
-Your current uploaded HTML and current GitHub JSON actually produce the correct $0.00 for the examples below, so the N/A likely came from an older published version or cached data.
-Download the corrected files
-Smart-Carpark-Map-Fixed.html
-data(1).json
-How to install
-Replace your existing GitHub data.json with the corrected JSON file. Rename the downloaded file to data.json if necessary.
-Replace your existing Blogspot HTML with the corrected HTML.
-Save both changes and refresh your Blogspot page.
-Verified results: 313 Somerset
-Day	Entry	Exit	Parking charge
-Monday	07:00	08:29	$0.00
-Monday	07:00	08:30	$0.00
-Monday	07:00	08:31	$1.20
-Monday	08:30	09:00	$1.20
-Monday	08:30	09:01	$2.40
-Monday	16:30	17:30	$1.80
-Monday	22:00	07:00 Tuesday	$0.00
-Saturday	07:00	08:29	$4.50
-
-Tested against 57,600 combinations across all carparks and parking days.
-
-Smart-Carpark-Map-Fixed.html
-HTML
-data.json
-Code
+[
+  {
+    "CarParkID": "313S",
+    "provider": "PRIVATE",
+    "name": "313 Somerset",
+    "country": "Singapore",
+    "lat": 1.30066,
+    "lng": 103.838027,
+    "capacity": 220,
+    "EVCharging": true,
+    "is24Hours": true,
+    "address": "313 Orchard Road, Singapore 238895",
+    "entranceType": "carpark",
+    "photos": [
+      {
+        "type": "image",
+        "url": "https://blogger.googleusercontent.com/img/a/AVvXsEhQ-p17zCW4yRg-pv-wEFLLbDLvs7HlTNV_Z_W0etkcFd1hbcdGYj4JShlSkG9UjkycNSRHxw5bCkSW2bToqrbGh_0QIJDgxIsnPlI7TJ5uSpOOjegA_x-gUdBxrfF_BscPZ3DpUxxj5FLkhiWhWeMzcgb_XeVWDxXntWtj4kvccYu3eh3opbwafLfUKww=s1600",
+        "caption": "Main entrance from Orchard Road"
+      },
+      {
+        "type": "streetview",
+        "embedUrl": "https://www.google.com/maps/embed?pb=!4v1754910000000!6m8!1m7!1s-BM5x6bPUAjB1EnZzF-cEg!2m2!1d1.300172!2d103.8397483!3f16.09!4f0!5f0.7820865974627469",
+        "caption": "Google Street View"
+      }
+    ],
+    "ParkingRates": {
+      "gracePeriodMinutes": 15,
+      "weekday": [
+        {
+          "from": "07:00",
+          "to": "08:30",
+          "billing": "free"
+        },
+        {
+          "from": "08:30",
+          "to": "17:00",
+          "billing": "interval",
+          "rate": 1.2,
+          "intervalMinutes": 30,
+          "rounding": "up"
+        },
+        {
+          "from": "17:00",
+          "to": "22:00",
+          "billing": "interval",
+          "rate": 0.6,
+          "intervalMinutes": 30,
+          "rounding": "up"
+        },
+        {
+          "from": "22:00",
+          "to": "07:00",
+          "billing": "free"
+        }
+      ],
+      "saturday": [
+        {
+          "from": "07:00",
+          "to": "22:00",
+          "billing": "interval",
+          "rate": 1.5,
+          "intervalMinutes": 30,
+          "rounding": "up"
+        },
+        {
+          "from": "22:00",
+          "to": "07:00",
+          "billing": "free"
+        }
+      ],
+      "sunday": [
+        {
+          "from": "07:00",
+          "to": "22:00",
+          "billing": "interval",
+          "rate": 1.5,
+          "intervalMinutes": 30,
+          "rounding": "up"
+        },
+        {
+          "from": "22:00",
+          "to": "07:00",
+          "billing": "free"
+        }
+      ],
+      "publicHoliday": [
+        {
+          "from": "07:00",
+          "to": "22:00",
+          "billing": "interval",
+          "rate": 1.5,
+          "intervalMinutes": 30,
+          "rounding": "up"
+        },
+        {
+          "from": "22:00",
+          "to": "07:00",
+          "billing": "free"
+        }
+      ]
+    }
+  },
+  {
+    "CarParkID": "313S-LB",
+    "provider": "PRIVATE",
+    "name": "313 Somerset Loading Bay",
+    "country": "Singapore",
+    "lat": 1.30066,
+    "lng": 103.838027,
+    "is24Hours": false,
+    "operatingHours": "07:00–22:00",
+    "address": "313 Orchard Road, Singapore 238895",
+    "entranceType": "loading bay",
+    "loadingBayHeight": 3.5,
+    "photos": [
+      {
+        "type": "image",
+        "url": "",
+        "caption": "Loading bay entrance"
+      },
+      {
+        "type": "streetview",
+        "embedUrl": "",
+        "caption": "Loading bay entrance Google Street View"
+      }
+    ]
+  },
+  {
+    "CarParkID": "ION",
+    "provider": "PRIVATE",
+    "name": "ION Orchard",
+    "country": "Singapore",
+    "lat": 1.304833,
+    "lng": 103.831833,
+    "capacity": 700,
+    "EVCharging": true,
+    "is24Hours": true,
+    "address": "2 Orchard Turn, Singapore 238801",
+    "entranceType": "carpark",
+    "photos": [],
+    "ParkingRates": {
+      "gracePeriodMinutes": 10,
+      "weekday": [
+        {
+          "from": "00:00",
+          "to": "18:00",
+          "billing": "interval",
+          "rate": 1.8,
+          "intervalMinutes": 30,
+          "rounding": "up"
+        },
+        {
+          "from": "18:00",
+          "to": "00:00",
+          "billing": "interval",
+          "rate": 2.0,
+          "intervalMinutes": 30,
+          "rounding": "up"
+        }
+      ],
+      "saturday": [
+        {
+          "from": "00:00",
+          "to": "00:00",
+          "billing": "interval",
+          "rate": 2.2,
+          "intervalMinutes": 30,
+          "rounding": "up"
+        }
+      ],
+      "sunday": [
+        {
+          "from": "00:00",
+          "to": "00:00",
+          "billing": "interval",
+          "rate": 2.2,
+          "intervalMinutes": 30,
+          "rounding": "up"
+        }
+      ],
+      "publicHoliday": [
+        {
+          "from": "00:00",
+          "to": "00:00",
+          "billing": "interval",
+          "rate": 2.2,
+          "intervalMinutes": 30,
+          "rounding": "up"
+        }
+      ]
+    }
+  },
+  {
+    "CarParkID": "PSG",
+    "provider": "PRIVATE",
+    "name": "Plaza Singapura",
+    "country": "Singapore",
+    "lat": 1.300998,
+    "lng": 103.845182,
+    "capacity": 900,
+    "EVCharging": true,
+    "is24Hours": true,
+    "address": "68 Orchard Road, Singapore 238839",
+    "entranceType": "carpark",
+    "photos": [],
+    "ParkingRates": {
+      "gracePeriodMinutes": 20,
+      "weekday": [
+        {
+          "from": "00:00",
+          "to": "00:00",
+          "billing": "interval",
+          "rate": 1.6,
+          "intervalMinutes": 30,
+          "rounding": "up"
+        }
+      ],
+      "saturday": [
+        {
+          "from": "00:00",
+          "to": "00:00",
+          "billing": "interval",
+          "rate": 1.8,
+          "intervalMinutes": 30,
+          "rounding": "up"
+        }
+      ],
+      "sunday": [
+        {
+          "from": "00:00",
+          "to": "00:00",
+          "billing": "interval",
+          "rate": 1.8,
+          "intervalMinutes": 30,
+          "rounding": "up"
+        }
+      ],
+      "publicHoliday": [
+        {
+          "from": "00:00",
+          "to": "00:00",
+          "billing": "interval",
+          "rate": 1.8,
+          "intervalMinutes": 30,
+          "rounding": "up"
+        }
+      ]
+    }
+  },
+  {
+    "CarParkID": "VIVO",
+    "provider": "PRIVATE",
+    "name": "VivoCity",
+    "country": "Singapore",
+    "lat": 1.26442,
+    "lng": 103.82276,
+    "capacity": 2000,
+    "EVCharging": true,
+    "is24Hours": true,
+    "address": "1 HarbourFront Walk, Singapore 098585",
+    "entranceType": "carpark",
+    "photos": [],
+    "ParkingRates": {
+      "gracePeriodMinutes": 15,
+      "weekday": [
+        {
+          "from": "00:00",
+          "to": "00:00",
+          "billing": "interval",
+          "rate": 1.4,
+          "intervalMinutes": 30,
+          "rounding": "up"
+        }
+      ],
+      "saturday": [
+        {
+          "from": "00:00",
+          "to": "00:00",
+          "billing": "interval",
+          "rate": 1.6,
+          "intervalMinutes": 30,
+          "rounding": "up"
+        }
+      ],
+      "sunday": [
+        {
+          "from": "00:00",
+          "to": "00:00",
+          "billing": "interval",
+          "rate": 1.6,
+          "intervalMinutes": 30,
+          "rounding": "up"
+        }
+      ],
+      "publicHoliday": [
+        {
+          "from": "00:00",
+          "to": "00:00",
+          "billing": "interval",
+          "rate": 1.6,
+          "intervalMinutes": 30,
+          "rounding": "up"
+        }
+      ]
+    }
+  },
+  {
+    "CarParkID": "JEM",
+    "provider": "PRIVATE",
+    "name": "JEM",
+    "country": "Singapore",
+    "lat": 1.33314,
+    "lng": 103.7436,
+    "capacity": 900,
+    "EVCharging": true,
+    "is24Hours": true,
+    "address": "50 Jurong Gateway Road, Singapore 608549",
+    "entranceType": "carpark",
+    "photos": [],
+    "ParkingRates": {
+      "gracePeriodMinutes": 15,
+      "weekday": [
+        {
+          "from": "00:00",
+          "to": "00:00",
+          "billing": "interval",
+          "rate": 1.3,
+          "intervalMinutes": 30,
+          "rounding": "up"
+        }
+      ],
+      "saturday": [
+        {
+          "from": "00:00",
+          "to": "00:00",
+          "billing": "interval",
+          "rate": 1.5,
+          "intervalMinutes": 30,
+          "rounding": "up"
+        }
+      ],
+      "sunday": [
+        {
+          "from": "00:00",
+          "to": "00:00",
+          "billing": "interval",
+          "rate": 1.5,
+          "intervalMinutes": 30,
+          "rounding": "up"
+        }
+      ],
+      "publicHoliday": [
+        {
+          "from": "00:00",
+          "to": "00:00",
+          "billing": "interval",
+          "rate": 1.5,
+          "intervalMinutes": 30,
+          "rounding": "up"
+        }
+      ]
+    }
+  }
+]

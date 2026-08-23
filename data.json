@@ -26,7 +26,7 @@
 "ParkingRates": {
 "gracePeriodMinutes": 15,
 "weekday": [
-{ "from": "07:00", "to": "08:30", "billing": "free" },
+{ "from": "07:00", "to": "08:30", "billing": "0.00" },
 { "from": "08:30", "to": "17:00", "billing": "interval", "rate": 1.20, "intervalMinutes": 30, "rounding": "up" },
 { "from": "17:00", "to": "22:00", "billing": "interval", "rate": 0.60, "intervalMinutes": 30, "rounding": "up" },
 { "from": "22:00", "to": "07:00", "billing": "free" }

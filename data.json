@@ -1,16 +1,13 @@
 [
   {
     "CarParkID": "313S",
-    "provider": "PRIVATE",
     "name": "313 Somerset",
     "country": "Singapore",
     "lat": 1.30066,
     "lng": 103.838027,
     "capacity": 220,
     "EVCharging": true,
-    "is24Hours": true,
     "address": "313 Orchard Road, Singapore 238895",
-    "entranceType": "carpark",
     "photos": [
       {
         "type": "image",
@@ -102,7 +99,6 @@
   },
   {
     "CarParkID": "313S-LB",
-    "provider": "PRIVATE",
     "name": "313 Somerset Loading Bay",
     "country": "Singapore",
     "lat": 1.30066,
@@ -127,16 +123,13 @@
   },
   {
     "CarParkID": "ION",
-    "provider": "PRIVATE",
     "name": "ION Orchard",
     "country": "Singapore",
     "lat": 1.304833,
     "lng": 103.831833,
     "capacity": 700,
     "EVCharging": true,
-    "is24Hours": true,
     "address": "2 Orchard Turn, Singapore 238801",
-    "entranceType": "carpark",
     "photos": [],
     "ParkingRates": {
       "gracePeriodMinutes": 10,
@@ -153,7 +146,7 @@
           "from": "18:00",
           "to": "00:00",
           "billing": "interval",
-          "rate": 2.0,
+          "rate": 2,
           "intervalMinutes": 30,
           "rounding": "up"
         }
@@ -192,16 +185,13 @@
   },
   {
     "CarParkID": "PSG",
-    "provider": "PRIVATE",
     "name": "Plaza Singapura",
     "country": "Singapore",
     "lat": 1.300998,
     "lng": 103.845182,
     "capacity": 900,
     "EVCharging": true,
-    "is24Hours": true,
     "address": "68 Orchard Road, Singapore 238839",
-    "entranceType": "carpark",
     "photos": [],
     "ParkingRates": {
       "gracePeriodMinutes": 20,
@@ -249,16 +239,13 @@
   },
   {
     "CarParkID": "VIVO",
-    "provider": "PRIVATE",
     "name": "VivoCity",
     "country": "Singapore",
     "lat": 1.26442,
     "lng": 103.82276,
     "capacity": 2000,
     "EVCharging": true,
-    "is24Hours": true,
     "address": "1 HarbourFront Walk, Singapore 098585",
-    "entranceType": "carpark",
     "photos": [],
     "ParkingRates": {
       "gracePeriodMinutes": 15,
@@ -306,16 +293,13 @@
   },
   {
     "CarParkID": "JEM",
-    "provider": "PRIVATE",
     "name": "JEM",
     "country": "Singapore",
     "lat": 1.33314,
     "lng": 103.7436,
     "capacity": 900,
     "EVCharging": true,
-    "is24Hours": true,
     "address": "50 Jurong Gateway Road, Singapore 608549",
-    "entranceType": "carpark",
     "photos": [],
     "ParkingRates": {
       "gracePeriodMinutes": 15,

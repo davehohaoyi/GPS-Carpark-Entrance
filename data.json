@@ -16,78 +16,65 @@
       }
     ],
     "ParkingRates": {
-      "gracePeriodMinutes": 15,
-      "weekday": [
+      "gracePeriodMinutes": 0,
+      "mondayToThursday": [
         {
-          "from": "07:00",
-          "to": "08:30",
-          "billing": "free"
-        },
-        {
-          "from": "08:30",
-          "to": "17:00",
-          "billing": "interval",
-          "rate": 1.2,
-          "intervalMinutes": 30,
+          "from": "00:00",
+          "to": "00:00",
+          "billing": "tieredDuration",
+          "firstMinutes": 60,
+          "firstRate": 3.05,
+          "subsequentIntervalMinutes": 30,
+          "subsequentRate": 1.31,
           "rounding": "up"
-        },
+        }
+      ],
+      "friday": [
         {
-          "from": "17:00",
-          "to": "22:00",
-          "billing": "interval",
-          "rate": 0.6,
-          "intervalMinutes": 30,
+          "from": "00:00",
+          "to": "00:00",
+          "billing": "tieredDuration",
+          "firstMinutes": 60,
+          "firstRate": 3.27,
+          "subsequentIntervalMinutes": 30,
+          "subsequentRate": 1.64,
           "rounding": "up"
-        },
-        {
-          "from": "22:00",
-          "to": "07:00",
-          "billing": "free"
         }
       ],
       "saturday": [
         {
-          "from": "07:00",
-          "to": "22:00",
-          "billing": "interval",
-          "rate": 1.5,
-          "intervalMinutes": 30,
+          "from": "00:00",
+          "to": "00:00",
+          "billing": "tieredDuration",
+          "firstMinutes": 60,
+          "firstRate": 3.27,
+          "subsequentIntervalMinutes": 30,
+          "subsequentRate": 1.64,
           "rounding": "up"
-        },
-        {
-          "from": "22:00",
-          "to": "07:00",
-          "billing": "free"
         }
       ],
       "sunday": [
         {
-          "from": "07:00",
-          "to": "22:00",
-          "billing": "interval",
-          "rate": 1.5,
-          "intervalMinutes": 30,
+          "from": "00:00",
+          "to": "00:00",
+          "billing": "tieredDuration",
+          "firstMinutes": 60,
+          "firstRate": 3.27,
+          "subsequentIntervalMinutes": 30,
+          "subsequentRate": 1.64,
           "rounding": "up"
-        },
-        {
-          "from": "22:00",
-          "to": "07:00",
-          "billing": "free"
         }
       ],
       "publicHoliday": [
         {
-          "from": "07:00",
-          "to": "22:00",
-          "billing": "interval",
-          "rate": 1.5,
-          "intervalMinutes": 30,
+          "from": "00:00",
+          "to": "00:00",
+          "billing": "tieredDuration",
+          "firstMinutes": 60,
+          "firstRate": 3.27,
+          "subsequentIntervalMinutes": 30,
+          "subsequentRate": 1.64,
           "rounding": "up"
-        },
-        {
-          "from": "22:00",
-          "to": "07:00",
-          "billing": "free"
         }
       ]
     }

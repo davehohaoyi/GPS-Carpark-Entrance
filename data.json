@@ -17,65 +17,29 @@
     ],
     "ParkingRates": {
       "gracePeriodMinutes": 0,
-      "mondayToThursday": [
-        {
-          "from": "00:00",
-          "to": "00:00",
-          "billing": "tieredDuration",
-          "firstMinutes": 60,
-          "firstRate": 3.05,
-          "subsequentIntervalMinutes": 30,
-          "subsequentRate": 1.31,
-          "rounding": "up"
-        }
+      "monday": [
+        { "from": "00:00", "to": "00:00", "billing": "tieredDuration", "firstMinutes": 60, "firstRate": 3.05, "subsequentIntervalMinutes": 30, "subsequentRate": 1.31, "rounding": "up" }
+      ],
+      "tuesday": [
+        { "from": "00:00", "to": "00:00", "billing": "tieredDuration", "firstMinutes": 60, "firstRate": 3.05, "subsequentIntervalMinutes": 30, "subsequentRate": 1.31, "rounding": "up" }
+      ],
+      "wednesday": [
+        { "from": "00:00", "to": "00:00", "billing": "tieredDuration", "firstMinutes": 60, "firstRate": 3.05, "subsequentIntervalMinutes": 30, "subsequentRate": 1.31, "rounding": "up" }
+      ],
+      "thursday": [
+        { "from": "00:00", "to": "00:00", "billing": "tieredDuration", "firstMinutes": 60, "firstRate": 3.05, "subsequentIntervalMinutes": 30, "subsequentRate": 1.31, "rounding": "up" }
       ],
       "friday": [
-        {
-          "from": "00:00",
-          "to": "00:00",
-          "billing": "tieredDuration",
-          "firstMinutes": 60,
-          "firstRate": 3.27,
-          "subsequentIntervalMinutes": 30,
-          "subsequentRate": 1.64,
-          "rounding": "up"
-        }
+        { "from": "00:00", "to": "00:00", "billing": "tieredDuration", "firstMinutes": 60, "firstRate": 3.27, "subsequentIntervalMinutes": 30, "subsequentRate": 1.64, "rounding": "up" }
       ],
       "saturday": [
-        {
-          "from": "00:00",
-          "to": "00:00",
-          "billing": "tieredDuration",
-          "firstMinutes": 60,
-          "firstRate": 3.27,
-          "subsequentIntervalMinutes": 30,
-          "subsequentRate": 1.64,
-          "rounding": "up"
-        }
+        { "from": "00:00", "to": "00:00", "billing": "tieredDuration", "firstMinutes": 60, "firstRate": 3.27, "subsequentIntervalMinutes": 30, "subsequentRate": 1.64, "rounding": "up" }
       ],
       "sunday": [
-        {
-          "from": "00:00",
-          "to": "00:00",
-          "billing": "tieredDuration",
-          "firstMinutes": 60,
-          "firstRate": 3.27,
-          "subsequentIntervalMinutes": 30,
-          "subsequentRate": 1.64,
-          "rounding": "up"
-        }
+        { "from": "00:00", "to": "00:00", "billing": "tieredDuration", "firstMinutes": 60, "firstRate": 3.27, "subsequentIntervalMinutes": 30, "subsequentRate": 1.64, "rounding": "up" }
       ],
       "publicHoliday": [
-        {
-          "from": "00:00",
-          "to": "00:00",
-          "billing": "tieredDuration",
-          "firstMinutes": 60,
-          "firstRate": 3.27,
-          "subsequentIntervalMinutes": 30,
-          "subsequentRate": 1.64,
-          "rounding": "up"
-        }
+        { "from": "00:00", "to": "00:00", "billing": "tieredDuration", "firstMinutes": 60, "firstRate": 3.27, "subsequentIntervalMinutes": 30, "subsequentRate": 1.64, "rounding": "up" }
       ]
     }
   },
@@ -91,16 +55,8 @@
     "entranceType": "loading bay",
     "loadingBayHeight": 3.5,
     "photos": [
-      {
-        "type": "image",
-        "url": "",
-        "caption": "Loading bay entrance"
-      },
-      {
-        "type": "streetview",
-        "embedUrl": "",
-        "caption": "Loading bay entrance Google Street View"
-      }
+      { "type": "image", "url": "", "caption": "Loading bay entrance" },
+      { "type": "streetview", "embedUrl": "", "caption": "Loading bay entrance Google Street View" }
     ]
   },
   {
@@ -115,53 +71,34 @@
     "photos": [],
     "ParkingRates": {
       "gracePeriodMinutes": 10,
-      "weekday": [
-        {
-          "from": "00:00",
-          "to": "18:00",
-          "billing": "interval",
-          "rate": 1.8,
-          "intervalMinutes": 30,
-          "rounding": "up"
-        },
-        {
-          "from": "18:00",
-          "to": "00:00",
-          "billing": "interval",
-          "rate": 2,
-          "intervalMinutes": 30,
-          "rounding": "up"
-        }
+      "monday": [
+        { "from": "00:00", "to": "18:00", "billing": "interval", "rate": 1.8, "intervalMinutes": 30, "rounding": "up" },
+        { "from": "18:00", "to": "00:00", "billing": "interval", "rate": 2, "intervalMinutes": 30, "rounding": "up" }
+      ],
+      "tuesday": [
+        { "from": "00:00", "to": "18:00", "billing": "interval", "rate": 1.8, "intervalMinutes": 30, "rounding": "up" },
+        { "from": "18:00", "to": "00:00", "billing": "interval", "rate": 2, "intervalMinutes": 30, "rounding": "up" }
+      ],
+      "wednesday": [
+        { "from": "00:00", "to": "18:00", "billing": "interval", "rate": 1.8, "intervalMinutes": 30, "rounding": "up" },
+        { "from": "18:00", "to": "00:00", "billing": "interval", "rate": 2, "intervalMinutes": 30, "rounding": "up" }
+      ],
+      "thursday": [
+        { "from": "00:00", "to": "18:00", "billing": "interval", "rate": 1.8, "intervalMinutes": 30, "rounding": "up" },
+        { "from": "18:00", "to": "00:00", "billing": "interval", "rate": 2, "intervalMinutes": 30, "rounding": "up" }
+      ],
+      "friday": [
+        { "from": "00:00", "to": "18:00", "billing": "interval", "rate": 1.8, "intervalMinutes": 30, "rounding": "up" },
+        { "from": "18:00", "to": "00:00", "billing": "interval", "rate": 2, "intervalMinutes": 30, "rounding": "up" }
       ],
       "saturday": [
-        {
-          "from": "00:00",
-          "to": "00:00",
-          "billing": "interval",
-          "rate": 2.2,
-          "intervalMinutes": 30,
-          "rounding": "up"
-        }
+        { "from": "00:00", "to": "00:00", "billing": "interval", "rate": 2.2, "intervalMinutes": 30, "rounding": "up" }
       ],
       "sunday": [
-        {
-          "from": "00:00",
-          "to": "00:00",
-          "billing": "interval",
-          "rate": 2.2,
-          "intervalMinutes": 30,
-          "rounding": "up"
-        }
+        { "from": "00:00", "to": "00:00", "billing": "interval", "rate": 2.2, "intervalMinutes": 30, "rounding": "up" }
       ],
       "publicHoliday": [
-        {
-          "from": "00:00",
-          "to": "00:00",
-          "billing": "interval",
-          "rate": 2.2,
-          "intervalMinutes": 30,
-          "rounding": "up"
-        }
+        { "from": "00:00", "to": "00:00", "billing": "interval", "rate": 2.2, "intervalMinutes": 30, "rounding": "up" }
       ]
     }
   },
@@ -177,46 +114,14 @@
     "photos": [],
     "ParkingRates": {
       "gracePeriodMinutes": 20,
-      "weekday": [
-        {
-          "from": "00:00",
-          "to": "00:00",
-          "billing": "interval",
-          "rate": 1.6,
-          "intervalMinutes": 30,
-          "rounding": "up"
-        }
-      ],
-      "saturday": [
-        {
-          "from": "00:00",
-          "to": "00:00",
-          "billing": "interval",
-          "rate": 1.8,
-          "intervalMinutes": 30,
-          "rounding": "up"
-        }
-      ],
-      "sunday": [
-        {
-          "from": "00:00",
-          "to": "00:00",
-          "billing": "interval",
-          "rate": 1.8,
-          "intervalMinutes": 30,
-          "rounding": "up"
-        }
-      ],
-      "publicHoliday": [
-        {
-          "from": "00:00",
-          "to": "00:00",
-          "billing": "interval",
-          "rate": 1.8,
-          "intervalMinutes": 30,
-          "rounding": "up"
-        }
-      ]
+      "monday": [{ "from": "00:00", "to": "00:00", "billing": "interval", "rate": 1.6, "intervalMinutes": 30, "rounding": "up" }],
+      "tuesday": [{ "from": "00:00", "to": "00:00", "billing": "interval", "rate": 1.6, "intervalMinutes": 30, "rounding": "up" }],
+      "wednesday": [{ "from": "00:00", "to": "00:00", "billing": "interval", "rate": 1.6, "intervalMinutes": 30, "rounding": "up" }],
+      "thursday": [{ "from": "00:00", "to": "00:00", "billing": "interval", "rate": 1.6, "intervalMinutes": 30, "rounding": "up" }],
+      "friday": [{ "from": "00:00", "to": "00:00", "billing": "interval", "rate": 1.6, "intervalMinutes": 30, "rounding": "up" }],
+      "saturday": [{ "from": "00:00", "to": "00:00", "billing": "interval", "rate": 1.8, "intervalMinutes": 30, "rounding": "up" }],
+      "sunday": [{ "from": "00:00", "to": "00:00", "billing": "interval", "rate": 1.8, "intervalMinutes": 30, "rounding": "up" }],
+      "publicHoliday": [{ "from": "00:00", "to": "00:00", "billing": "interval", "rate": 1.8, "intervalMinutes": 30, "rounding": "up" }]
     }
   },
   {
@@ -231,46 +136,14 @@
     "photos": [],
     "ParkingRates": {
       "gracePeriodMinutes": 15,
-      "weekday": [
-        {
-          "from": "00:00",
-          "to": "00:00",
-          "billing": "interval",
-          "rate": 1.4,
-          "intervalMinutes": 30,
-          "rounding": "up"
-        }
-      ],
-      "saturday": [
-        {
-          "from": "00:00",
-          "to": "00:00",
-          "billing": "interval",
-          "rate": 1.6,
-          "intervalMinutes": 30,
-          "rounding": "up"
-        }
-      ],
-      "sunday": [
-        {
-          "from": "00:00",
-          "to": "00:00",
-          "billing": "interval",
-          "rate": 1.6,
-          "intervalMinutes": 30,
-          "rounding": "up"
-        }
-      ],
-      "publicHoliday": [
-        {
-          "from": "00:00",
-          "to": "00:00",
-          "billing": "interval",
-          "rate": 1.6,
-          "intervalMinutes": 30,
-          "rounding": "up"
-        }
-      ]
+      "monday": [{ "from": "00:00", "to": "00:00", "billing": "interval", "rate": 1.4, "intervalMinutes": 30, "rounding": "up" }],
+      "tuesday": [{ "from": "00:00", "to": "00:00", "billing": "interval", "rate": 1.4, "intervalMinutes": 30, "rounding": "up" }],
+      "wednesday": [{ "from": "00:00", "to": "00:00", "billing": "interval", "rate": 1.4, "intervalMinutes": 30, "rounding": "up" }],
+      "thursday": [{ "from": "00:00", "to": "00:00", "billing": "interval", "rate": 1.4, "intervalMinutes": 30, "rounding": "up" }],
+      "friday": [{ "from": "00:00", "to": "00:00", "billing": "interval", "rate": 1.4, "intervalMinutes": 30, "rounding": "up" }],
+      "saturday": [{ "from": "00:00", "to": "00:00", "billing": "interval", "rate": 1.6, "intervalMinutes": 30, "rounding": "up" }],
+      "sunday": [{ "from": "00:00", "to": "00:00", "billing": "interval", "rate": 1.6, "intervalMinutes": 30, "rounding": "up" }],
+      "publicHoliday": [{ "from": "00:00", "to": "00:00", "billing": "interval", "rate": 1.6, "intervalMinutes": 30, "rounding": "up" }]
     }
   },
   {
@@ -285,46 +158,14 @@
     "photos": [],
     "ParkingRates": {
       "gracePeriodMinutes": 15,
-      "weekday": [
-        {
-          "from": "00:00",
-          "to": "00:00",
-          "billing": "interval",
-          "rate": 1.3,
-          "intervalMinutes": 30,
-          "rounding": "up"
-        }
-      ],
-      "saturday": [
-        {
-          "from": "00:00",
-          "to": "00:00",
-          "billing": "interval",
-          "rate": 1.5,
-          "intervalMinutes": 30,
-          "rounding": "up"
-        }
-      ],
-      "sunday": [
-        {
-          "from": "00:00",
-          "to": "00:00",
-          "billing": "interval",
-          "rate": 1.5,
-          "intervalMinutes": 30,
-          "rounding": "up"
-        }
-      ],
-      "publicHoliday": [
-        {
-          "from": "00:00",
-          "to": "00:00",
-          "billing": "interval",
-          "rate": 1.5,
-          "intervalMinutes": 30,
-          "rounding": "up"
-        }
-      ]
+      "monday": [{ "from": "00:00", "to": "00:00", "billing": "interval", "rate": 1.3, "intervalMinutes": 30, "rounding": "up" }],
+      "tuesday": [{ "from": "00:00", "to": "00:00", "billing": "interval", "rate": 1.3, "intervalMinutes": 30, "rounding": "up" }],
+      "wednesday": [{ "from": "00:00", "to": "00:00", "billing": "interval", "rate": 1.3, "intervalMinutes": 30, "rounding": "up" }],
+      "thursday": [{ "from": "00:00", "to": "00:00", "billing": "interval", "rate": 1.3, "intervalMinutes": 30, "rounding": "up" }],
+      "friday": [{ "from": "00:00", "to": "00:00", "billing": "interval", "rate": 1.3, "intervalMinutes": 30, "rounding": "up" }],
+      "saturday": [{ "from": "00:00", "to": "00:00", "billing": "interval", "rate": 1.5, "intervalMinutes": 30, "rounding": "up" }],
+      "sunday": [{ "from": "00:00", "to": "00:00", "billing": "interval", "rate": 1.5, "intervalMinutes": 30, "rounding": "up" }],
+      "publicHoliday": [{ "from": "00:00", "to": "00:00", "billing": "interval", "rate": 1.5, "intervalMinutes": 30, "rounding": "up" }]
     }
   }
 ]

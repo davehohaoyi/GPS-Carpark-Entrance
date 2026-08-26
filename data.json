@@ -10,13 +10,8 @@
     "address": "313 Orchard Road, Singapore 238895",
     "photos": [
       {
-        "type": "image",
-        "url": "https://blogger.googleusercontent.com/img/a/AVvXsEhQ-p17zCW4yRg-pv-wEFLLbDLvs7HlTNV_Z_W0etkcFd1hbcdGYj4JShlSkG9UjkycNSRHxw5bCkSW2bToqrbGh_0QIJDgxIsnPlI7TJ5uSpOOjegA_x-gUdBxrfF_BscPZ3DpUxxj5FLkhiWhWeMzcgb_XeVWDxXntWtj4kvccYu3eh3opbwafLfUKww=s1600",
-        "caption": "Main entrance from Orchard Road"
-      },
-      {
         "type": "streetview",
-        "embedUrl": "https://www.google.com/maps/embed?pb=!4v1754910000000!6m8!1m7!1s-BM5x6bPUAjB1EnZzF-cEg!2m2!1d1.300172!2d103.8397483!3f16.09!4f0!5f0.7820865974627469",
+        "embedUrl": "https://www.google.com/maps/embed?pb=!4v1787749722226!6m8!1m7!1sfwyAkKrLwG2V0okakTHhsQ!2m2!1d1.300603083259503!2d103.8379896307556!3f22.50099863283576!4f-0.569235783153772!5f0.7820865974627469",
         "caption": "Google Street View"
       }
     ],

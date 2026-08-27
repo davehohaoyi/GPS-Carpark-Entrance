@@ -291,7 +291,7 @@
           "subsequentIntervalMinutes": 30,
           "subsequentRate": 1.43,
           "rounding": "up"
-        },
+        }
       ],
       
             "publicHoliday": [

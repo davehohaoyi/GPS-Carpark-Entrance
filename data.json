@@ -55,7 +55,13 @@
   "EVCharging": true,
   "clearance": 2.0,
   "address": "2 Orchard Turn, Singapore 238801",
-  "photos": [],
+    "photos": [
+      {
+        "type": "streetview",
+        "embedUrl": "https://www.google.com/maps/embed?pb=!4v1787810670672!6m8!1m7!1suEggHfVSG2sKCN-6Q886tg!2m2!1d1.303058277356363!2d103.8319037511866!3f356.1178762568587!4f-1.3491329438073905!5f2.6828621079741213",
+        "caption": "Google Street View"
+      }
+    ],
   "ParkingRates": {
     "gracePeriodMinutes": 10,
     "monday": [

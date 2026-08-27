@@ -75,7 +75,7 @@
       }
     ],
   "ParkingRates": {
-    "gracePeriodMinutes": 10,
+    "gracePeriodMinutes": 0,
     "monday-thursday": [
       {
         "from": "00:00",

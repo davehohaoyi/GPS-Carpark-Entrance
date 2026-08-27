@@ -171,6 +171,7 @@
         "embedUrl": "https://www.google.com/maps/embed?pb=!4v1787821389434!6m8!1m7!1shD4GgKT3ElkpbWmMDCEwKw!2m2!1d1.300510949552293!2d103.8452959126654!3f2.5843748296849185!4f-3.808800428883174!5f0.7820865974627469",
         "caption": "Google Street View"
       }
+    ],
     "ParkingRates": {
       "gracePeriodMinutes": 0,
       "monday-friday": [

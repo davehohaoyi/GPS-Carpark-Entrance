@@ -121,11 +121,11 @@
   "CarParkID": "ION",
   "name": "ION Orchard",
   "country": "Singapore",
-  "lat": 1.304833,
-  "lng": 103.831833,
-  "capacity": 700,
+  "lat": 1.303416,
+  "lng": 103.831810,
+  "capacity": 500,
   "EVCharging": true,
-  "clearance": 2.0,
+  "clearance": 2.2,
   "address": "2 Orchard Turn, Singapore 238801",
     "photos": [
       {

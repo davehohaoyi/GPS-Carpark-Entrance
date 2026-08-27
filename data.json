@@ -8,7 +8,7 @@
     "capacity": 220,
     "EVCharging": true,
     "clearance": 2.0,
-    "address": "313 Orchard Road, Singapore 238895",
+    "address": "313 Orchard Road, S(238895)",
     "photos": [
       {
         "type": "streetview",
@@ -65,7 +65,7 @@
     "capacity": 500,
     "EVCharging": true,
     "clearance": 2.2,
-    "address": "2 Orchard Turn, Singapore 238801",
+    "address": "2 Orchard Turn, S(238801)",
     "photos": [
       {
         "type": "streetview",
@@ -164,7 +164,7 @@
     "capacity": 752,
     "EVCharging": true,
     "clearance": 2.1,
-    "address": "68 Orchard Road, Singapore 238839",
+    "address": "68 Orchard Road, S(238839)",
     "photos": [
       {
         "type": "streetview",
@@ -230,9 +230,87 @@
           "rate": 3.25
         }
       ]
-      
   }
 },
+
+  {
+    "CarParkID": "MS",
+    "name": "Marina Square",
+    "country": "Singapore",
+    "lat": 1.291938,
+    "lng": 103.857574,
+    "capacity": 1900,
+    "EVCharging": true,
+    "clearance": 2.1,
+    "address": "6 Raffles Boulevard, Marina Square, S(039594)",
+    "photos": [
+      {
+        "type": "streetview",
+        "embedUrl": "https://www.google.com/maps/embed?pb=!4v1787821389434!6m8!1m7!1shD4GgKT3ElkpbWmMDCEwKw!2m2!1d1.300510949552293!2d103.8452959126654!3f2.5843748296849185!4f-3.808800428883174!5f0.7820865974627469",
+        "caption": "Google Street View"
+      }
+    ],
+    "ParkingRates": {
+      "gracePeriodMinutes": 0,
+      "monday-friday": [
+        {
+          "from": "00:00",
+          "to": "18:00",
+          "billing": "tieredDuration",
+          "firstMinutes": 60,
+          "firstRate": 1.95,
+          "subsequentIntervalMinutes": 15,
+          "subsequentRate": 0.55,
+          "rounding": "up"
+        },
+        {
+          "from": "18:00",
+          "to": "11:59",
+          "billing": "perEntry",
+          "rate": 3.25
+        }
+        ],
+
+      "saturday-sunday": [
+        {
+          "from": "00:00",
+          "to": "18:00",
+          "billing": "tieredDuration",
+          "firstMinutes": 60,
+          "firstRate": 1.95,
+          "subsequentIntervalMinutes": 15,
+          "subsequentRate": 0.55,
+          "rounding": "up"
+        },
+        {
+          "from": "18:00",
+          "to": "11:59",
+          "billing": "perEntry",
+          "rate": 3.25
+        }
+      ],
+      
+            "publicHoliday": [
+        {
+          "from": "00:00",
+          "to": "18:00",
+          "billing": "tieredDuration",
+          "firstMinutes": 60,
+          "firstRate": 1.95,
+          "subsequentIntervalMinutes": 15,
+          "subsequentRate": 0.55,
+          "rounding": "up"
+        },
+        {
+          "from": "18:00",
+          "to": "11:59",
+          "billing": "perEntry",
+          "rate": 3.25
+        }
+      ]
+  }
+},
+
   {
     "CarParkID": "VIVO",
     "name": "VivoCity",
@@ -241,7 +319,7 @@
     "lng": 103.82276,
     "capacity": 2000,
     "EVCharging": true,
-    "address": "1 HarbourFront Walk, Singapore 098585",
+    "address": "1 HarbourFront Walk, S(098585)",
     "photos": [],
     "ParkingRates": {
       "gracePeriodMinutes": 15,
@@ -335,7 +413,7 @@
     "lng": 103.7436,
     "capacity": 900,
     "EVCharging": true,
-    "address": "50 Jurong Gateway Road, Singapore 608549",
+    "address": "50 Jurong Gateway Road, S(608549)",
     "photos": [],
     "ParkingRates": {
       "gracePeriodMinutes": 15,

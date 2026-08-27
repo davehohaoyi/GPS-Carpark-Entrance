@@ -237,8 +237,8 @@
     "CarParkID": "MS",
     "name": "Marina Square",
     "country": "Singapore",
-    "lat": 1.291938,
-    "lng": 103.857574,
+    "lat": 1.291960,
+    "lng": 103.857614,
     "capacity": 1900,
     "EVCharging": true,
     "clearance": 2.1,
@@ -246,7 +246,7 @@
     "photos": [
       {
         "type": "streetview",
-        "embedUrl": "https://www.google.com/maps/embed?pb=!4v1787821389434!6m8!1m7!1shD4GgKT3ElkpbWmMDCEwKw!2m2!1d1.300510949552293!2d103.8452959126654!3f2.5843748296849185!4f-3.808800428883174!5f0.7820865974627469",
+        "embedUrl": "https://www.google.com/maps/embed?pb=!4v1787837742368!6m8!1m7!1sLBWFy9W3ie6fecDY6RVoyg!2m2!1d1.292002354291997!2d103.8578567255763!3f200.2545032256046!4f1.672247965310774!5f1.6057699552577929",
         "caption": "Google Street View"
       }
     ],

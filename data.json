@@ -18,7 +18,7 @@
     ],
     "ParkingRates": {
       "gracePeriodMinutes": 0,
-      "monday": [
+      "monday-thursday": [
         {
           "from": "00:00",
           "to": "00:00",
@@ -30,55 +30,7 @@
           "rounding": "up"
         }
       ],
-      "tuesday": [
-        {
-          "from": "00:00",
-          "to": "00:00",
-          "billing": "tieredDuration",
-          "firstMinutes": 60,
-          "firstRate": 3.05,
-          "subsequentIntervalMinutes": 30,
-          "subsequentRate": 1.31,
-          "rounding": "up"
-        }
-      ],
-      "wednesday": [
-        {
-          "from": "00:00",
-          "to": "00:00",
-          "billing": "tieredDuration",
-          "firstMinutes": 60,
-          "firstRate": 3.05,
-          "subsequentIntervalMinutes": 30,
-          "subsequentRate": 1.31,
-          "rounding": "up"
-        }
-      ],
-      "thursday": [
-        {
-          "from": "00:00",
-          "to": "00:00",
-          "billing": "tieredDuration",
-          "firstMinutes": 60,
-          "firstRate": 3.05,
-          "subsequentIntervalMinutes": 30,
-          "subsequentRate": 1.31,
-          "rounding": "up"
-        }
-      ],
-      "saturday": [
-        {
-          "from": "00:00",
-          "to": "00:00",
-          "billing": "tieredDuration",
-          "firstMinutes": 60,
-          "firstRate": 3.27,
-          "subsequentIntervalMinutes": 30,
-          "subsequentRate": 1.64,
-          "rounding": "up"
-        }
-      ],
-      "sunday": [
+      "friday-sunday": [
         {
           "from": "00:00",
           "to": "00:00",

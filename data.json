@@ -210,7 +210,27 @@
           "billing": "perEntry",
           "rate": 3.25
         }
+      ],
+      
+            "publicHoliday": [
+        {
+          "from": "00:00",
+          "to": "18:00",
+          "billing": "tieredDuration",
+          "firstMinutes": 60,
+          "firstRate": 1.95,
+          "subsequentIntervalMinutes": 15,
+          "subsequentRate": 0.55,
+          "rounding": "up"
+        },
+        {
+          "from": "18:00",
+          "to": "11:59",
+          "billing": "perEntry",
+          "rate": 3.25
+        }
       ]
+      
   }
 },
   {

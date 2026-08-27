@@ -139,7 +139,7 @@
     "monday": [
       {
         "from": "00:00",
-        "to": "07:59",
+        "to": "08:00",
         "billing": "interval",
         "rate": 1.09,
         "intervalMinutes": 60,
@@ -147,7 +147,7 @@
       },
       {
         "from": "08:00",
-        "to": "16:59",
+        "to": "17:00",
         "billing": "interval",
         "firstRate": 2.73,
         "firstMinutes": 60,
@@ -157,17 +157,11 @@
       },
       {
         "from": "17:00",
-        "to": "11:59",
+        "to": "00:00",
         "billing": "firstThenInterval",
         "billing": "perEntry",
         "rate": 3.05
       },
-      {
-        "from": "17:00",
-        "to": "00:00",
-        "billing": "perEntry",
-        "rate": 3.05
-      }
     ],
     "tuesday": [
       {

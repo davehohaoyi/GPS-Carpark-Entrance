@@ -291,6 +291,14 @@
           "subsequentIntervalMinutes": 30,
           "subsequentRate": 1.43,
           "rounding": "up"
+        },
+        {
+          "from": "02:00",
+          "to": "07:00",
+          "billing": "interval",
+          "rate": 1.12,
+          "intervalMinutes": 30,
+          "rounding": "up"
         }
       ],
       

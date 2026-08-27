@@ -254,13 +254,13 @@
       "gracePeriodMinutes": 0,
       "monday-friday": [
         {
-          "from": "00:00",
-          "to": "18:00",
+          "from": "07:00",
+          "to": "17:00",
           "billing": "tieredDuration",
-          "firstMinutes": 60,
-          "firstRate": 1.95,
-          "subsequentIntervalMinutes": 15,
-          "subsequentRate": 0.55,
+          "firstMinutes": 120,
+          "firstRate": 3.27,
+          "subsequentIntervalMinutes": 30,
+          "subsequentRate": 1.64,
           "rounding": "up"
         },
         {

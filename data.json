@@ -264,12 +264,20 @@
           "rounding": "up"
         },
         {
-          "from": "18:00",
-          "to": "11:59",
+          "from": "17:00",
+          "to": "23:00",
           "billing": "perEntry",
-          "rate": 3.25
+          "rate": 2.25
+        },
+        {
+          "from": "23:00",
+          "to": "07:00",
+          "billing": "interval",
+          "rate": 1.12,
+          "intervalMinutes": 30,
+          "rounding": "up"
         }
-        ],
+      ],
 
       "saturday-sunday": [
         {

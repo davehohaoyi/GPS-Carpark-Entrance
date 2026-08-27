@@ -66,7 +66,7 @@
           "rounding": "up"
         }
       ],
-      "friday": [
+      "friday-sunday": [
         {
           "from": "00:00",
           "to": "00:00",
@@ -162,7 +162,7 @@
         "rate": 3.05
       }
     ],
-    "friday": [
+    "friday-sunday": [
       {
         "from": "00:00",
         "to": "08:00",

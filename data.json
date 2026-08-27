@@ -304,20 +304,24 @@
       
             "publicHoliday": [
         {
-          "from": "00:00",
-          "to": "18:00",
+          "from": "07:00",
+          "to": "02:00",
           "billing": "tieredDuration",
           "firstMinutes": 60,
-          "firstRate": 1.95,
-          "subsequentIntervalMinutes": 15,
-          "subsequentRate": 0.55,
+          "firstRate": 2.44,
+          "subsequentIntervalMinutes": 60,
+          "subsequentRate": 1.22,
+          "subsequentIntervalMinutes": 30,
+          "subsequentRate": 1.43,
           "rounding": "up"
         },
         {
-          "from": "18:00",
-          "to": "11:59",
-          "billing": "perEntry",
-          "rate": 3.25
+          "from": "02:00",
+          "to": "07:00",
+          "billing": "interval",
+          "rate": 1.12,
+          "intervalMinutes": 30,
+          "rounding": "up"
         }
       ]
   }

@@ -241,7 +241,7 @@
     "lng": 103.857614,
     "capacity": 1900,
     "EVCharging": true,
-    "clearance": 2.1,
+    "clearance": 2.0,
     "address": "6 Raffles Boulevard, Marina Square, S(039594)",
     "servesBuildings": [
       {
@@ -365,7 +365,7 @@
     "lng": 103.859200,
     "capacity": 1900,
     "EVCharging": true,
-    "clearance": 2.1,
+    "clearance": 1.9,
     "address": "7 Raffles Boulevard, S(039595)",
     "servesBuildings": [
       {

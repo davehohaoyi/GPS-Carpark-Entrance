@@ -281,7 +281,7 @@
       }
     ],
     "ParkingRates": {
-      "gracePeriodMinutes": 0,
+      "gracePeriodMinutes": 10,
       "monday-thursday": [
         {
           "from": "07:00",
@@ -405,7 +405,7 @@
       }
     ],
     "ParkingRates": {
-      "gracePeriodMinutes": 0,
+      "gracePeriodMinutes": 10,
       "monday-thursday": [
         {
           "from": "07:00",
@@ -482,13 +482,14 @@
 },
 
   {
-    "CarParkID": "VIVO",
-    "name": "VivoCity",
+    "CarParkID": "VIVOP3",
+    "name": "VivoCity (P3)",
     "country": "Singapore",
-    "lat": 1.26442,
-    "lng": 103.82276,
-    "capacity": 2000,
+    "lat": 1.264972,
+    "lng": 103.820838,
+    "capacity": 2179,
     "EVCharging": true,
+    "clearance": 2.1,
     "address": "1 HarbourFront Walk, S(098585)",
     "photos": [],
     "ParkingRates": {

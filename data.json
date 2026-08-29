@@ -249,15 +249,27 @@
         "accessType": "Direct access"
       },
       {
+        "name": "Mandarin Oriental, Singapore",
+        "accessType": "Shared carpark"
+      },
+      {
         "name": "Pan Pacific Singapore",
         "accessType": "Shared carpark"
+      },
+      {
+        "name": "Millenia Walk",
+        "accessType": "Internal connection"
+      },
+      {
+        "name": "Millenia Tower",
+        "accessType": "Internal connection"
       },
       {
         "name": "Parkroyal Collection Marina Bay",
         "accessType": "Internal connection"
       },
       {
-        "name": "Mandarin Oriental, Singapore",
+        "name": "One Raffles Link",
         "accessType": "Internal connection"
       }
     ],
@@ -361,15 +373,27 @@
         "accessType": "Direct access"
       },
       {
+        "name": "Mandarin Oriental, Singapore",
+        "accessType": "Shared carpark"
+      },
+      {
         "name": "Pan Pacific Singapore",
         "accessType": "Shared carpark"
+      },
+      {
+        "name": "Millenia Walk",
+        "accessType": "Internal connection"
+      },
+      {
+        "name": "Millenia Tower",
+        "accessType": "Internal connection"
       },
       {
         "name": "Parkroyal Collection Marina Bay",
         "accessType": "Internal connection"
       },
       {
-        "name": "Mandarin Oriental, Singapore",
+        "name": "One Raffles Link",
         "accessType": "Internal connection"
       }
     ],

@@ -491,7 +491,13 @@
     "EVCharging": true,
     "clearance": 2.1,
     "address": "1 HarbourFront Walk, S(098585)",
-    "photos": [],
+    "photos": [
+      {
+        "type": "streetview",
+        "embedUrl": "https://www.google.com/maps/embed?pb=!4v1788012676765!6m8!1m7!1sKVQ4YZoVuOXoMKRNUuM3kA!2m2!1d1.265025158884129!2d103.8207983864484!3f191.24071436178582!4f-16.696520970770322!5f0.7820865974627469",
+        "caption": "Google Street View"
+      }
+    ],
     "ParkingRates": {
       "gracePeriodMinutes": 10,
       "monday-friday": [

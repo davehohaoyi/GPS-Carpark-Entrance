@@ -243,6 +243,24 @@
     "EVCharging": true,
     "clearance": 2.1,
     "address": "6 Raffles Boulevard, Marina Square, S(039594)",
+    "servesBuildings": [
+      {
+        "name": "Marina Square",
+        "accessType": "Direct access"
+      },
+      {
+        "name": "Pan Pacific Singapore",
+        "accessType": "Shared carpark"
+      },
+      {
+        "name": "PARKROYAL COLLECTION Marina Bay",
+        "accessType": "Internal connection"
+      },
+      {
+        "name": "Mandarin Oriental, Singapore",
+        "accessType": "Internal connection"
+      }
+    ],
     "photos": [
       {
         "type": "streetview",

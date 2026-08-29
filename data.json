@@ -493,15 +493,13 @@
     "address": "1 HarbourFront Walk, S(098585)",
     "photos": [],
     "ParkingRates": {
-      "gracePeriodMinutes": 15,
-      "monday": [
+      "gracePeriodMinutes": 10,
+      "monday-friday": [
         {
           "from": "00:00",
-          "to": "00:00",
-          "billing": "interval",
-          "rate": 1.4,
-          "intervalMinutes": 30,
-          "rounding": "up"
+          "to": "04:00",
+          "billing": "perEntry",
+          "rate": 3.05
         }
       ],
       "tuesday": [

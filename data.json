@@ -499,76 +499,52 @@
           "from": "00:00",
           "to": "04:00",
           "billing": "perEntry",
-          "rate": 3.05
-        }
-      ],
-      "tuesday": [
+          "rate": 3.20
+        },
         {
-          "from": "00:00",
+          "from": "04:00",
           "to": "00:00",
-          "billing": "interval",
-          "rate": 1.4,
-          "intervalMinutes": 30,
+          "billing": "tieredDuration",
+          "firstMinutes": 60,
+          "firstRate": 1.60,
+          "subsequentIntervalMinutes": 30,
+          "subsequentRate": 0.80,
           "rounding": "up"
         }
       ],
-      "wednesday": [
+      "saturday-sunday": [
         {
           "from": "00:00",
-          "to": "00:00",
-          "billing": "interval",
-          "rate": 1.4,
-          "intervalMinutes": 30,
-          "rounding": "up"
-        }
-      ],
-      "thursday": [
+          "to": "04:00",
+          "billing": "perEntry",
+          "rate": 4.80
+        },
         {
-          "from": "00:00",
+          "from": "04:00",
           "to": "00:00",
-          "billing": "interval",
-          "rate": 1.4,
-          "intervalMinutes": 30,
-          "rounding": "up"
-        }
-      ],
-      "friday": [
-        {
-          "from": "00:00",
-          "to": "00:00",
-          "billing": "interval",
-          "rate": 1.4,
-          "intervalMinutes": 30,
-          "rounding": "up"
-        }
-      ],
-      "saturday": [
-        {
-          "from": "00:00",
-          "to": "00:00",
-          "billing": "interval",
-          "rate": 1.6,
-          "intervalMinutes": 30,
-          "rounding": "up"
-        }
-      ],
-      "sunday": [
-        {
-          "from": "00:00",
-          "to": "00:00",
-          "billing": "interval",
-          "rate": 1.6,
-          "intervalMinutes": 30,
+          "billing": "tieredDuration",
+          "firstMinutes": 60,
+          "firstRate": 2.20,
+          "subsequentIntervalMinutes": 30,
+          "subsequentRate": 1.10,
           "rounding": "up"
         }
       ],
       "publicHoliday": [
         {
           "from": "00:00",
+          "to": "04:00",
+          "billing": "perEntry",
+          "rate": 4.80
+        },
+        {
+          "from": "04:00",
           "to": "00:00",
-          "billing": "interval",
-          "rate": 1.6,
-          "intervalMinutes": 30,
+          "billing": "tieredDuration",
+          "firstMinutes": 60,
+          "firstRate": 2.20,
+          "subsequentIntervalMinutes": 30,
+          "subsequentRate": 1.10,
           "rounding": "up"
         }
       ]

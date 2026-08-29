@@ -346,6 +346,118 @@
 },
 
   {
+    "CarParkID": "PPH",
+    "name": "Pan Pacific Hotel",
+    "country": "Singapore",
+    "lat": 1.291967,
+    "lng": 103.859200,
+    "capacity": 1900,
+    "EVCharging": true,
+    "clearance": 2.1,
+    "address": "7 Raffles Boulevard, S(039595)",
+    "servesBuildings": [
+      {
+        "name": "Marina Square",
+        "accessType": "Direct access"
+      },
+      {
+        "name": "Pan Pacific Singapore",
+        "accessType": "Shared carpark"
+      },
+      {
+        "name": "Parkroyal Collection Marina Bay",
+        "accessType": "Internal connection"
+      },
+      {
+        "name": "Mandarin Oriental, Singapore",
+        "accessType": "Internal connection"
+      }
+    ],
+    "photos": [
+      {
+        "type": "streetview",
+        "embedUrl": "https://www.google.com/maps/embed?pb=!4v1787837742368!6m8!1m7!1sLBWFy9W3ie6fecDY6RVoyg!2m2!1d1.292002354291997!2d103.8578567255763!3f200.2545032256046!4f1.672247965310774!5f1.6057699552577929",
+        "caption": "Google Street View"
+      }
+    ],
+    "ParkingRates": {
+      "gracePeriodMinutes": 0,
+      "monday-thursday": [
+        {
+          "from": "07:00",
+          "to": "17:00",
+          "billing": "tieredDuration",
+          "firstMinutes": 120,
+          "firstRate": 3.27,
+          "subsequentIntervalMinutes": 30,
+          "subsequentRate": 1.64,
+          "rounding": "up"
+        },
+        {
+          "from": "17:00",
+          "to": "23:00",
+          "billing": "perEntry",
+          "rate": 2.25
+        },
+        {
+          "from": "23:00",
+          "to": "07:00",
+          "billing": "interval",
+          "rate": 1.12,
+          "intervalMinutes": 30,
+          "rounding": "up"
+        }
+      ],
+
+      "friday-sunday": [
+        {
+          "from": "07:00",
+          "to": "02:00",
+          "billing": "tieredDuration",
+          "firstMinutes": 60,
+          "firstRate": 2.44,
+          "subsequentIntervalMinutes": 60,
+          "subsequentRate": 1.22,
+          "subsequentIntervalMinutes": 30,
+          "subsequentRate": 1.43,
+          "rounding": "up"
+        },
+        {
+          "from": "02:00",
+          "to": "07:00",
+          "billing": "interval",
+          "rate": 1.12,
+          "intervalMinutes": 30,
+          "rounding": "up"
+        }
+      ],
+      
+            "publicHoliday": [
+        {
+          "from": "07:00",
+          "to": "02:00",
+          "billing": "tieredDuration",
+          "firstMinutes": 60,
+          "firstRate": 2.44,
+          "subsequentIntervalMinutes": 60,
+          "subsequentRate": 1.22,
+          "subsequentIntervalMinutes": 30,
+          "subsequentRate": 1.43,
+          "rounding": "up"
+        },
+        {
+          "from": "02:00",
+          "to": "07:00",
+          "billing": "interval",
+          "rate": 1.12,
+          "intervalMinutes": 30,
+          "rounding": "up"
+        }
+      ]
+  }
+},
+
+  {
     "CarParkID": "VIVO",
     "name": "VivoCity",
     "country": "Singapore",

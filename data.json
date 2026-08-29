@@ -561,7 +561,7 @@
     "CarParkID": "VIVOP2",
     "name": "VivoCity (P2)",
     "country": "Singapore",
-    "lat": .265573,
+    "lat": 1.265573,
     "lng": 103.822858,
     "capacity": 2179,
     "EVCharging": true,

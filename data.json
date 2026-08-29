@@ -313,13 +313,22 @@
         {
           "from": "07:00",
           "to": "02:00",
-          "billing": "tieredDuration",
-          "firstMinutes": 120,
-          "firstRate": 2.44,
-          "subsequentIntervalMinutes": 60,
-          "subsequentRate": 1.22,
-          "subsequentIntervalMinutes": 30,
-          "subsequentRate": 1.43,
+          "billing": "multiTierDuration",
+          "tiers": [
+            {
+              "minutes": 120,
+              "rate": 2.44
+            },
+            {
+              "minutes": 60,
+              "rate": 1.22
+            },
+            {
+              "minutes": 30,
+              "rate": 1.43,
+              "repeat": true
+            }
+          ],
           "rounding": "up"
         },
         {
@@ -336,13 +345,22 @@
         {
           "from": "07:00",
           "to": "02:00",
-          "billing": "tieredDuration",
-          "firstMinutes": 120,
-          "firstRate": 2.44,
-          "subsequentIntervalMinutes": 60,
-          "subsequentRate": 1.22,
-          "subsequentIntervalMinutes": 30,
-          "subsequentRate": 1.43,
+          "billing": "multiTierDuration",
+          "tiers": [
+            {
+              "minutes": 120,
+              "rate": 2.44
+            },
+            {
+              "minutes": 60,
+              "rate": 1.22
+            },
+            {
+              "minutes": 30,
+              "rate": 1.43,
+              "repeat": true
+            }
+          ],
           "rounding": "up"
         },
         {
@@ -437,13 +455,22 @@
         {
           "from": "07:00",
           "to": "02:00",
-          "billing": "tieredDuration",
-          "firstMinutes": 120,
-          "firstRate": 2.44,
-          "subsequentIntervalMinutes": 60,
-          "subsequentRate": 1.22,
-          "subsequentIntervalMinutes": 30,
-          "subsequentRate": 1.43,
+          "billing": "multiTierDuration",
+          "tiers": [
+            {
+              "minutes": 120,
+              "rate": 2.44
+            },
+            {
+              "minutes": 60,
+              "rate": 1.22
+            },
+            {
+              "minutes": 30,
+              "rate": 1.43,
+              "repeat": true
+            }
+          ],
           "rounding": "up"
         },
         {
@@ -460,13 +487,22 @@
         {
           "from": "07:00",
           "to": "02:00",
-          "billing": "tieredDuration",
-          "firstMinutes": 120,
-          "firstRate": 2.44,
-          "subsequentIntervalMinutes": 60,
-          "subsequentRate": 1.22,
-          "subsequentIntervalMinutes": 30,
-          "subsequentRate": 1.43,
+          "billing": "multiTierDuration",
+          "tiers": [
+            {
+              "minutes": 120,
+              "rate": 2.44
+            },
+            {
+              "minutes": 60,
+              "rate": 1.22
+            },
+            {
+              "minutes": 30,
+              "rate": 1.43,
+              "repeat": true
+            }
+          ],
           "rounding": "up"
         },
         {

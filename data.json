@@ -556,6 +556,83 @@
       ]
     }
   },
+  
+  {
+    "CarParkID": "VIVOP2",
+    "name": "VivoCity (P2)",
+    "country": "Singapore",
+    "lat": .265573,
+    "lng": 103.822858,
+    "capacity": 2179,
+    "EVCharging": true,
+    "clearance": 2.1,
+    "address": "1 HarbourFront Walk, S(098585)",
+    "photos": [
+      {
+        "type": "streetview",
+        "embedUrl": "https://www.google.com/maps/embed?pb=!4v1788012676765!6m8!1m7!1sKVQ4YZoVuOXoMKRNUuM3kA!2m2!1d1.265025158884129!2d103.8207983864484!3f191.24071436178582!4f-16.696520970770322!5f0.7820865974627469",
+        "caption": "Google Street View"
+      }
+    ],
+    "ParkingRates": {
+      "gracePeriodMinutes": 10,
+      "monday-friday": [
+        {
+          "from": "00:00",
+          "to": "04:00",
+          "billing": "perEntry",
+          "rate": 3.20
+        },
+        {
+          "from": "04:00",
+          "to": "00:00",
+          "billing": "tieredDuration",
+          "firstMinutes": 60,
+          "firstRate": 1.60,
+          "subsequentIntervalMinutes": 30,
+          "subsequentRate": 0.80,
+          "rounding": "up"
+        }
+      ],
+      "saturday-sunday": [
+        {
+          "from": "00:00",
+          "to": "04:00",
+          "billing": "perEntry",
+          "rate": 4.80
+        },
+        {
+          "from": "04:00",
+          "to": "00:00",
+          "billing": "tieredDuration",
+          "firstMinutes": 60,
+          "firstRate": 2.20,
+          "subsequentIntervalMinutes": 30,
+          "subsequentRate": 1.10,
+          "rounding": "up"
+        }
+      ],
+      "publicHoliday": [
+        {
+          "from": "00:00",
+          "to": "04:00",
+          "billing": "perEntry",
+          "rate": 4.80
+        },
+        {
+          "from": "04:00",
+          "to": "00:00",
+          "billing": "tieredDuration",
+          "firstMinutes": 60,
+          "firstRate": 2.20,
+          "subsequentIntervalMinutes": 30,
+          "subsequentRate": 1.10,
+          "rounding": "up"
+        }
+      ]
+    }
+  },
+  
   {
     "CarParkID": "JEM",
     "name": "JEM",

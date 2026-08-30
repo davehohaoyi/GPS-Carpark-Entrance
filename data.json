@@ -1,851 +1,814 @@
 [
-  {
-    "CarParkID": "313S",
-    "name": "313 Somerset",
-    "country": "Singapore",
-    "lat": 1.30066,
-    "lng": 103.838027,
-    "capacity": 220,
-    "EVCharging": true,
-    "clearance": 2.0,
-    "address": "313 Orchard Road, S(238895)",
-    "photos": [
-      {
-        "type": "streetview",
-        "embedUrl": "https://www.google.com/maps/embed?pb=!4v1787749722226!6m8!1m7!1sfwyAkKrLwG2V0okakTHhsQ!2m2!1d1.300603083259503!2d103.8379896307556!3f22.50099863283576!4f-0.569235783153772!5f0.7820865974627469",
-        "caption": "Google Street View"
-      }
-    ],
-    "ParkingRates": {
-      "gracePeriodMinutes": 0,
-      "monday-thursday": [
-        {
-          "from": "00:00",
-          "to": "00:00",
-          "billing": "tieredDuration",
-          "firstMinutes": 60,
-          "firstRate": 3.05,
-          "subsequentIntervalMinutes": 30,
-          "subsequentRate": 1.31,
-          "rounding": "up"
-        }
-      ],
-      "friday-sunday": [
-        {
-          "from": "00:00",
-          "to": "00:00",
-          "billing": "tieredDuration",
-          "firstMinutes": 60,
-          "firstRate": 3.27,
-          "subsequentIntervalMinutes": 30,
-          "subsequentRate": 1.64,
-          "rounding": "up"
-        }
-      ],
-      "publicHoliday": [
-        {
-          "from": "00:00",
-          "to": "00:00",
-          "billing": "tieredDuration",
-          "firstMinutes": 60,
-          "firstRate": 3.27,
-          "subsequentIntervalMinutes": 30,
-          "subsequentRate": 1.64,
-          "rounding": "up"
-        }
-      ]
-    }
-  },
-  {
-    "CarParkID": "ION",
-    "name": "ION Orchard",
-    "country": "Singapore",
-    "lat": 1.303416,
-    "lng": 103.83181,
-    "capacity": 500,
-    "EVCharging": true,
-    "clearance": 2.2,
-    "address": "2 Orchard Turn, S(238801)",
-    "photos": [
-      {
-        "type": "streetview",
-        "embedUrl": "https://www.google.com/maps/embed?pb=!4v1787810670672!6m8!1m7!1suEggHfVSG2sKCN-6Q886tg!2m2!1d1.303058277356363!2d103.8319037511866!3f356.1178762568587!4f-1.3491329438073905!5f2.6828621079741213",
-        "caption": "Google Street View"
-      }
-    ],
-    "ParkingRates": {
-      "gracePeriodMinutes": 0,
-      "monday-thursday": [
-        {
-          "from": "00:00",
-          "to": "08:00",
-          "billing": "interval",
-          "rate": 1.09,
-          "intervalMinutes": 60,
-          "rounding": "up"
-        },
-        {
-          "from": "08:00",
-          "to": "17:00",
-          "billing": "tieredDuration",
-          "firstMinutes": 60,
-          "firstRate": 2.73,
-          "subsequentIntervalMinutes": 30,
-          "subsequentRate": 1.31,
-          "rounding": "up"
-        },
-        {
-          "from": "17:00",
-          "to": "00:00",
-          "billing": "perEntry",
-          "rate": 3.05
-        }
-      ],
-      "friday-sunday": [
-        {
-          "from": "00:00",
-          "to": "08:00",
-          "billing": "interval",
-          "rate": 1.09,
-          "intervalMinutes": 60,
-          "rounding": "up"
-        },
-        {
-          "from": "08:00",
-          "to": "18:00",
-          "billing": "tieredDuration",
-          "firstMinutes": 60,
-          "firstRate": 2.62,
-          "subsequentIntervalMinutes": 30,
-          "subsequentRate": 1.91,
-          "rounding": "up"
-        },
-        {
-          "from": "18:00",
-          "to": "00:00",
-          "billing": "perEntry",
-          "rate": 3.82
-        }
-      ],
-      "publicHoliday": [
-        {
-          "from": "00:00",
-          "to": "08:00",
-          "billing": "interval",
-          "rate": 1.09,
-          "intervalMinutes": 60,
-          "rounding": "up"
-        },
-        {
-          "from": "08:00",
-          "to": "18:00",
-          "billing": "tieredDuration",
-          "firstMinutes": 60,
-          "firstRate": 2.62,
-          "subsequentIntervalMinutes": 30,
-          "subsequentRate": 1.91,
-          "rounding": "up"
-        },
-        {
-          "from": "18:00",
-          "to": "00:00",
-          "billing": "perEntry",
-          "rate": 3.82
-        }
-      ]
-    }
-  },
-  {
-    "CarParkID": "PSG",
-    "name": "Plaza Singapura",
-    "country": "Singapore",
-    "lat": 1.300665,
-    "lng": 103.845438,
-    "capacity": 752,
-    "EVCharging": true,
-    "clearance": 2.1,
-    "address": "68 Orchard Road, S(238839)",
-    "photos": [
-      {
-        "type": "streetview",
-        "embedUrl": "https://www.google.com/maps/embed?pb=!4v1787821389434!6m8!1m7!1shD4GgKT3ElkpbWmMDCEwKw!2m2!1d1.300510949552293!2d103.8452959126654!3f2.5843748296849185!4f-3.808800428883174!5f0.7820865974627469",
-        "caption": "Google Street View"
-      }
-    ],
-    "ParkingRates": {
-      "gracePeriodMinutes": 0,
-      "monday-friday": [
-        {
-          "from": "00:00",
-          "to": "18:00",
-          "billing": "tieredDuration",
-          "firstMinutes": 60,
-          "firstRate": 1.95,
-          "subsequentIntervalMinutes": 15,
-          "subsequentRate": 0.55,
-          "rounding": "up"
-        },
-        {
-          "from": "18:00",
-          "to": "11:59",
-          "billing": "perEntry",
-          "rate": 3.25
-        }
-        ],
-
-      "saturday-sunday": [
-        {
-          "from": "00:00",
-          "to": "18:00",
-          "billing": "tieredDuration",
-          "firstMinutes": 60,
-          "firstRate": 1.95,
-          "subsequentIntervalMinutes": 15,
-          "subsequentRate": 0.55,
-          "rounding": "up"
-        },
-        {
-          "from": "18:00",
-          "to": "11:59",
-          "billing": "perEntry",
-          "rate": 3.25
-        }
-      ],
-      
-            "publicHoliday": [
-        {
-          "from": "00:00",
-          "to": "18:00",
-          "billing": "tieredDuration",
-          "firstMinutes": 60,
-          "firstRate": 1.95,
-          "subsequentIntervalMinutes": 15,
-          "subsequentRate": 0.55,
-          "rounding": "up"
-        },
-        {
-          "from": "18:00",
-          "to": "11:59",
-          "billing": "perEntry",
-          "rate": 3.25
-        }
-      ]
-  }
-},
-
-  {
-    "CarParkID": "MS",
-    "name": "Marina Square",
-    "country": "Singapore",
-    "lat": 1.291960,
-    "lng": 103.857614,
-    "capacity": 1900,
-    "EVCharging": true,
-    "clearance": 2.0,
-    "address": "6 Raffles Boulevard, Marina Square, S(039594)",
-    "servesBuildings": [
-      {
-        "name": "Marina Square",
-        "accessType": "Direct access"
-      },
-      {
-        "name": "Mandarin Oriental, Singapore",
-        "accessType": "Shared carpark"
-      },
-      {
-        "name": "Pan Pacific Singapore",
-        "accessType": "Shared carpark"
-      },
-      {
-        "name": "Millenia Walk",
-        "accessType": "Internal connection"
-      },
-      {
-        "name": "Millenia Tower",
-        "accessType": "Internal connection"
-      },
-      {
-        "name": "Parkroyal Collection Marina Bay",
-        "accessType": "Internal connection"
-      },
-      {
-        "name": "One Raffles Link",
-        "accessType": "Internal connection"
-      }
-    ],
-    "photos": [
-      {
-        "type": "streetview",
-        "embedUrl": "https://www.google.com/maps/embed?pb=!4v1787837742368!6m8!1m7!1sLBWFy9W3ie6fecDY6RVoyg!2m2!1d1.292002354291997!2d103.8578567255763!3f200.2545032256046!4f1.672247965310774!5f1.6057699552577929",
-        "caption": "Google Street View"
-      }
-    ],
-    "ParkingRates": {
-      "gracePeriodMinutes": 10,
-      "monday-thursday": [
-        {
-          "from": "07:00",
-          "to": "17:00",
-          "billing": "tieredDuration",
-          "firstMinutes": 120,
-          "firstRate": 3.27,
-          "subsequentIntervalMinutes": 30,
-          "subsequentRate": 1.64,
-          "rounding": "up"
-        },
-        {
-          "from": "17:00",
-          "to": "23:00",
-          "billing": "perEntry",
-          "rate": 2.25
-        },
-        {
-          "from": "23:00",
-          "to": "07:00",
-          "billing": "interval",
-          "rate": 1.12,
-          "intervalMinutes": 30,
-          "rounding": "up"
-        }
-      ],
-
-      "friday-sunday": [
-        {
-          "from": "07:00",
-          "to": "02:00",
-          "billing": "multiTierDuration",
-          "tiers": [
-            {
-              "minutes": 120,
-              "rate": 2.44
-            },
-            {
-              "minutes": 60,
-              "rate": 1.22
-            },
-            {
-              "minutes": 30,
-              "rate": 1.43,
-              "repeat": true
-            }
-          ],
-          "rounding": "up"
-        },
-        {
-          "from": "02:00",
-          "to": "07:00",
-          "billing": "interval",
-          "rate": 1.12,
-          "intervalMinutes": 30,
-          "rounding": "up"
-        }
-      ],
-      
-            "publicHoliday": [
-        {
-          "from": "07:00",
-          "to": "02:00",
-          "billing": "multiTierDuration",
-          "tiers": [
-            {
-              "minutes": 120,
-              "rate": 2.44
-            },
-            {
-              "minutes": 60,
-              "rate": 1.22
-            },
-            {
-              "minutes": 30,
-              "rate": 1.43,
-              "repeat": true
-            }
-          ],
-          "rounding": "up"
-        },
-        {
-          "from": "02:00",
-          "to": "07:00",
-          "billing": "interval",
-          "rate": 1.12,
-          "intervalMinutes": 30,
-          "rounding": "up"
-        }
-      ]
-  }
-},
-
-  {
-    "CarParkID": "PPH",
-    "name": "Pan Pacific Hotel",
-    "country": "Singapore",
-    "lat": 1.291967,
-    "lng": 103.859200,
-    "capacity": 1900,
-    "EVCharging": true,
-    "clearance": 1.9,
-    "address": "7 Raffles Boulevard, S(039595)",
-    "servesBuildings": [
-      {
-        "name": "Marina Square",
-        "accessType": "Direct access"
-      },
-      {
-        "name": "Mandarin Oriental, Singapore",
-        "accessType": "Shared carpark"
-      },
-      {
-        "name": "Pan Pacific Singapore",
-        "accessType": "Shared carpark"
-      },
-      {
-        "name": "Millenia Walk",
-        "accessType": "Internal connection"
-      },
-      {
-        "name": "Millenia Tower",
-        "accessType": "Internal connection"
-      },
-      {
-        "name": "Parkroyal Collection Marina Bay",
-        "accessType": "Internal connection"
-      },
-      {
-        "name": "One Raffles Link",
-        "accessType": "Internal connection"
-      }
-    ],
-    "photos": [
-      {
-        "type": "streetview",
-        "embedUrl": "https://www.google.com/maps/embed?pb=!4v1788010930255!6m8!1m7!1sfyZDkyHwDDH-8mk3x8RFhQ!2m2!1d1.292099906165898!2d103.8590746784318!3f130.83!4f-3.530000000000001!5f2.6279027145397786",
-        "caption": "Google Street View"
-      }
-    ],
-    "ParkingRates": {
-      "gracePeriodMinutes": 10,
-      "monday-thursday": [
-        {
-          "from": "07:00",
-          "to": "17:00",
-          "billing": "tieredDuration",
-          "firstMinutes": 120,
-          "firstRate": 3.27,
-          "subsequentIntervalMinutes": 30,
-          "subsequentRate": 1.64,
-          "rounding": "up"
-        },
-        {
-          "from": "17:00",
-          "to": "23:00",
-          "billing": "perEntry",
-          "rate": 2.25
-        },
-        {
-          "from": "23:00",
-          "to": "07:00",
-          "billing": "interval",
-          "rate": 1.12,
-          "intervalMinutes": 30,
-          "rounding": "up"
-        }
-      ],
-
-      "friday-sunday": [
-        {
-          "from": "07:00",
-          "to": "02:00",
-          "billing": "multiTierDuration",
-          "tiers": [
-            {
-              "minutes": 120,
-              "rate": 2.44
-            },
-            {
-              "minutes": 60,
-              "rate": 1.22
-            },
-            {
-              "minutes": 30,
-              "rate": 1.43,
-              "repeat": true
-            }
-          ],
-          "rounding": "up"
-        },
-        {
-          "from": "02:00",
-          "to": "07:00",
-          "billing": "interval",
-          "rate": 1.12,
-          "intervalMinutes": 30,
-          "rounding": "up"
-        }
-      ],
-      
-            "publicHoliday": [
-        {
-          "from": "07:00",
-          "to": "02:00",
-          "billing": "multiTierDuration",
-          "tiers": [
-            {
-              "minutes": 120,
-              "rate": 2.44
-            },
-            {
-              "minutes": 60,
-              "rate": 1.22
-            },
-            {
-              "minutes": 30,
-              "rate": 1.43,
-              "repeat": true
-            }
-          ],
-          "rounding": "up"
-        },
-        {
-          "from": "02:00",
-          "to": "07:00",
-          "billing": "interval",
-          "rate": 1.12,
-          "intervalMinutes": 30,
-          "rounding": "up"
-        }
-      ]
-  }
-},
-
-  {
-    "CarParkID": "VIVOP3",
-    "name": "VivoCity (P3)",
-    "country": "Singapore",
-    "lat": 1.264972,
-    "lng": 103.820838,
-    "capacity": 2179,
-    "EVCharging": true,
-    "clearance": 2.1,
-    "address": "1 HarbourFront Walk, S(098585)",
-    "photos": [
-      {
-        "type": "streetview",
-        "embedUrl": "https://www.google.com/maps/embed?pb=!4v1788012676765!6m8!1m7!1sKVQ4YZoVuOXoMKRNUuM3kA!2m2!1d1.265025158884129!2d103.8207983864484!3f191.24071436178582!4f-16.696520970770322!5f0.7820865974627469",
-        "caption": "Google Street View"
-      }
-    ],
-    "ParkingRates": {
-      "gracePeriodMinutes": 10,
-      "monday-friday": [
-        {
-          "from": "00:00",
-          "to": "04:00",
-          "billing": "perEntry",
-          "rate": 3.20
-        },
-        {
-          "from": "04:00",
-          "to": "00:00",
-          "billing": "tieredDuration",
-          "firstMinutes": 60,
-          "firstRate": 1.60,
-          "subsequentIntervalMinutes": 30,
-          "subsequentRate": 0.80,
-          "rounding": "up"
-        }
-      ],
-      "saturday-sunday": [
-        {
-          "from": "00:00",
-          "to": "04:00",
-          "billing": "perEntry",
-          "rate": 4.80
-        },
-        {
-          "from": "04:00",
-          "to": "00:00",
-          "billing": "tieredDuration",
-          "firstMinutes": 60,
-          "firstRate": 2.20,
-          "subsequentIntervalMinutes": 30,
-          "subsequentRate": 1.10,
-          "rounding": "up"
-        }
-      ],
-      "publicHoliday": [
-        {
-          "from": "00:00",
-          "to": "04:00",
-          "billing": "perEntry",
-          "rate": 4.80
-        },
-        {
-          "from": "04:00",
-          "to": "00:00",
-          "billing": "tieredDuration",
-          "firstMinutes": 60,
-          "firstRate": 2.20,
-          "subsequentIntervalMinutes": 30,
-          "subsequentRate": 1.10,
-          "rounding": "up"
-        }
-      ]
-    }
-  },
-  
-  {
-    "CarParkID": "VIVOP2",
-    "name": "VivoCity (P2)",
-    "country": "Singapore",
-    "lat": 1.265573,
-    "lng": 103.822858,
-    "capacity": 2179,
-    "EVCharging": true,
-    "clearance": 2.1,
-    "address": "1 HarbourFront Walk, S(098585)",
-    "photos": [
-      {
-        "type": "streetview",
-        "embedUrl": "https://www.google.com/maps/embed?pb=!4v1788014079982!6m8!1m7!1sWuZYSGb1lV2x2qG9y0g2fQ!2m2!1d1.265546179273378!2d103.8228461565067!3f203.82600886204023!4f-4.815824665351684!5f0.7820865974627469",
-        "caption": "Google Street View"
-      }
-    ],
-    "ParkingRates": {
-      "gracePeriodMinutes": 10,
-      "monday-friday": [
-        {
-          "from": "00:00",
-          "to": "04:00",
-          "billing": "perEntry",
-          "rate": 3.20
-        },
-        {
-          "from": "04:00",
-          "to": "00:00",
-          "billing": "tieredDuration",
-          "firstMinutes": 60,
-          "firstRate": 1.60,
-          "subsequentIntervalMinutes": 30,
-          "subsequentRate": 0.80,
-          "rounding": "up"
-        }
-      ],
-      "saturday-sunday": [
-        {
-          "from": "00:00",
-          "to": "04:00",
-          "billing": "perEntry",
-          "rate": 4.80
-        },
-        {
-          "from": "04:00",
-          "to": "00:00",
-          "billing": "tieredDuration",
-          "firstMinutes": 60,
-          "firstRate": 2.20,
-          "subsequentIntervalMinutes": 30,
-          "subsequentRate": 1.10,
-          "rounding": "up"
-        }
-      ],
-      "publicHoliday": [
-        {
-          "from": "00:00",
-          "to": "04:00",
-          "billing": "perEntry",
-          "rate": 4.80
-        },
-        {
-          "from": "04:00",
-          "to": "00:00",
-          "billing": "tieredDuration",
-          "firstMinutes": 60,
-          "firstRate": 2.20,
-          "subsequentIntervalMinutes": 30,
-          "subsequentRate": 1.10,
-          "rounding": "up"
-        }
-      ]
-    }
-  },
-  
-  {
-    "CarParkID": "JEM",
-    "name": "JEM",
-    "country": "Singapore",
-    "lat": 1.33314,
-    "lng": 103.7436,
-    "capacity": 900,
-    "EVCharging": true,
-    "clearance": 2.2,
-    "address": "50 Jurong Gateway Road, S(608549)",
-    "photos": [
-      {
-        "type": "streetview",
-        "embedUrl": "https://www.google.com/maps/embed?pb=!4v1788095443060!6m8!1m7!1sZIhYJXExJAqPd6Y4h8DQuw!2m2!1d1.333083958328177!2d103.7439290682073!3f341.53608979159003!4f-7.59202374302518!5f0.7820865974627469",
-        "caption": "Google Street View"
-      }
-    ],
-    "ParkingRates": {
-      "gracePeriodMinutes": 10,
-      "monday-thursday": [
-        {
-          "from": "06:00",
-          "to": "17:59",
-          "billing": "interval",
-          "rate": 1.3,
-          "intervalMinutes": 30,
-          "rounding": "up"
-        }
-      ],
-      "tuesday": [
-        {
-          "from": "00:00",
-          "to": "00:00",
-          "billing": "interval",
-          "rate": 1.3,
-          "intervalMinutes": 30,
-          "rounding": "up"
-        }
-      ],
-      "wednesday": [
-        {
-          "from": "00:00",
-          "to": "00:00",
-          "billing": "interval",
-          "rate": 1.3,
-          "intervalMinutes": 30,
-          "rounding": "up"
-        }
-      ],
-      "thursday": [
-        {
-          "from": "00:00",
-          "to": "00:00",
-          "billing": "interval",
-          "rate": 1.3,
-          "intervalMinutes": 30,
-          "rounding": "up"
-        }
-      ],
-      "friday": [
-        {
-          "from": "00:00",
-          "to": "00:00",
-          "billing": "interval",
-          "rate": 1.3,
-          "intervalMinutes": 30,
-          "rounding": "up"
-        }
-      ],
-      "saturday": [
-        {
-          "from": "00:00",
-          "to": "00:00",
-          "billing": "interval",
-          "rate": 1.5,
-          "intervalMinutes": 30,
-          "rounding": "up"
-        }
-      ],
-      "sunday": [
-        {
-          "from": "00:00",
-          "to": "00:00",
-          "billing": "interval",
-          "rate": 1.5,
-          "intervalMinutes": 30,
-          "rounding": "up"
-        }
-      ],
-      "publicHoliday": [
-        {
-          "from": "00:00",
-          "to": "00:00",
-          "billing": "interval",
-          "rate": 1.5,
-          "intervalMinutes": 30,
-          "rounding": "up"
-        }
-      ]
-    }
-  },
-  
-{
-  "DestinationID": "MDFC",
-  "name": "Margaret Drive Food Centre",
-  "address": "38A Margaret Drive, Singapore",
-  "lat": 1.297458,
-  "lng": 103.804915,
-  "parkingType": "nearby",
-  "parkingNotice": "No on-site carpark. Use a nearby carpark.",
-  "recommendedCarparks": [
-    {
-      "CarParkID": "HDB_DSR2",
-      "recommended": true
-    },
-    {
-      "CarParkID": "HDB002",
-      "recommended": false
-    }
-  ]
-},
-
-{
-  "CarParkID": "HDB_DSR2",
-  "name": "HDB SkyResidence @ Dawson Blk 37A (MSCP)",
-  "country": "Singapore",
-  "lat": 1.298113,
-  "lng": 103.805132,
-  "capacity": null,
-  "EVCharging": true,
-  "clearance": 2.15,
-  "address": "37A Margaret Drive, S(144037)",
-      "photos": [
-      {
-        "type": "streetview",
-        "embedUrl": "https://www.google.com/maps/embed?pb=!4v1788095288177!6m8!1m7!1sAp0NAUt3jsyQVDjWAmcvlA!2m2!1d1.298462277112283!2d103.8051347182679!3f194.31789997429814!4f4.514173551141923!5f0.7820865974627469",
-        "caption": "Google Street View"
-      }
-      ],
-  "ParkingRates": {
-    "gracePeriodMinutes": 15,
-    "dailyCap": 12,
-      "monday-saturday": [
-      {
-          "from": "07:00",
-          "to": "22:30",
-          "billing": "interval",
-          "rate": 0.60,
-          "intervalMinutes": 30,
-          "rounding": "up"
-      },
-      {
-          "from": "22:30",
-          "to": "07:00",
-          "billing": "interval",
-          "rate": 0.60,
-          "intervalMinutes": 30,
-          "rounding": "up",
-          "periodCap": 5
-      }
-      ],
-  "sunday": [
-    {
-      "from": "07:00",
-      "to": "22:30",
-      "billing": "free"
-    }
-  ],
-
-  "publicHoliday": [
-    {
-      "from": "07:00",
-      "to": "22:30",
-      "billing": "free"
-    }
-  ]
-    }
-  }
-  
+	{
+		"CarParkID": "313S",
+		"name": "313 Somerset",
+		"country": "Singapore",
+		"lat": 1.30066,
+		"lng": 103.838027,
+		"capacity": 220,
+		"EVCharging": true,
+		"clearance": 2.0,
+		"address": "313 Orchard Road, S(238895)",
+		"photos": [
+			{
+				"type": "streetview",
+				"embedUrl": "https://www.google.com/maps/embed?pb=!4v1787749722226!6m8!1m7!1sfwyAkKrLwG2V0okakTHhsQ!2m2!1d1.300603083259503!2d103.8379896307556!3f22.50099863283576!4f-0.569235783153772!5f0.7820865974627469",
+				"caption": "Google Street View"
+			}
+		],
+		"ParkingRates": {
+			"gracePeriodMinutes": 0,
+			"monday-thursday": [
+				{
+					"from": "00:00",
+					"to": "00:00",
+					"billing": "tieredDuration",
+					"firstMinutes": 60,
+					"firstRate": 3.05,
+					"subsequentIntervalMinutes": 30,
+					"subsequentRate": 1.31,
+					"rounding": "up"
+				}
+			],
+			"friday-sunday": [
+				{
+					"from": "00:00",
+					"to": "00:00",
+					"billing": "tieredDuration",
+					"firstMinutes": 60,
+					"firstRate": 3.27,
+					"subsequentIntervalMinutes": 30,
+					"subsequentRate": 1.64,
+					"rounding": "up"
+				}
+			],
+			"publicHoliday": [
+				{
+					"from": "00:00",
+					"to": "00:00",
+					"billing": "tieredDuration",
+					"firstMinutes": 60,
+					"firstRate": 3.27,
+					"subsequentIntervalMinutes": 30,
+					"subsequentRate": 1.64,
+					"rounding": "up"
+				}
+			]
+		}
+	},
+	{
+		"CarParkID": "ION",
+		"name": "ION Orchard",
+		"country": "Singapore",
+		"lat": 1.303416,
+		"lng": 103.83181,
+		"capacity": 500,
+		"EVCharging": true,
+		"clearance": 2.2,
+		"address": "2 Orchard Turn, S(238801)",
+		"photos": [
+			{
+				"type": "streetview",
+				"embedUrl": "https://www.google.com/maps/embed?pb=!4v1787810670672!6m8!1m7!1suEggHfVSG2sKCN-6Q886tg!2m2!1d1.303058277356363!2d103.8319037511866!3f356.1178762568587!4f-1.3491329438073905!5f2.6828621079741213",
+				"caption": "Google Street View"
+			}
+		],
+		"ParkingRates": {
+			"gracePeriodMinutes": 0,
+			"monday-thursday": [
+				{
+					"from": "00:00",
+					"to": "08:00",
+					"billing": "interval",
+					"rate": 1.09,
+					"intervalMinutes": 60,
+					"rounding": "up"
+				},
+				{
+					"from": "08:00",
+					"to": "17:00",
+					"billing": "tieredDuration",
+					"firstMinutes": 60,
+					"firstRate": 2.73,
+					"subsequentIntervalMinutes": 30,
+					"subsequentRate": 1.31,
+					"rounding": "up"
+				},
+				{
+					"from": "17:00",
+					"to": "00:00",
+					"billing": "perEntry",
+					"rate": 3.05
+				}
+			],
+			"friday-sunday": [
+				{
+					"from": "00:00",
+					"to": "08:00",
+					"billing": "interval",
+					"rate": 1.09,
+					"intervalMinutes": 60,
+					"rounding": "up"
+				},
+				{
+					"from": "08:00",
+					"to": "18:00",
+					"billing": "tieredDuration",
+					"firstMinutes": 60,
+					"firstRate": 2.62,
+					"subsequentIntervalMinutes": 30,
+					"subsequentRate": 1.91,
+					"rounding": "up"
+				},
+				{
+					"from": "18:00",
+					"to": "00:00",
+					"billing": "perEntry",
+					"rate": 3.82
+				}
+			],
+			"publicHoliday": [
+				{
+					"from": "00:00",
+					"to": "08:00",
+					"billing": "interval",
+					"rate": 1.09,
+					"intervalMinutes": 60,
+					"rounding": "up"
+				},
+				{
+					"from": "08:00",
+					"to": "18:00",
+					"billing": "tieredDuration",
+					"firstMinutes": 60,
+					"firstRate": 2.62,
+					"subsequentIntervalMinutes": 30,
+					"subsequentRate": 1.91,
+					"rounding": "up"
+				},
+				{
+					"from": "18:00",
+					"to": "00:00",
+					"billing": "perEntry",
+					"rate": 3.82
+				}
+			]
+		}
+	},
+	{
+		"CarParkID": "PSG",
+		"name": "Plaza Singapura",
+		"country": "Singapore",
+		"lat": 1.300665,
+		"lng": 103.845438,
+		"capacity": 752,
+		"EVCharging": true,
+		"clearance": 2.1,
+		"address": "68 Orchard Road, S(238839)",
+		"photos": [
+			{
+				"type": "streetview",
+				"embedUrl": "https://www.google.com/maps/embed?pb=!4v1787821389434!6m8!1m7!1shD4GgKT3ElkpbWmMDCEwKw!2m2!1d1.300510949552293!2d103.8452959126654!3f2.5843748296849185!4f-3.808800428883174!5f0.7820865974627469",
+				"caption": "Google Street View"
+			}
+		],
+		"ParkingRates": {
+			"gracePeriodMinutes": 0,
+			"monday-friday": [
+				{
+					"from": "00:00",
+					"to": "18:00",
+					"billing": "tieredDuration",
+					"firstMinutes": 60,
+					"firstRate": 1.95,
+					"subsequentIntervalMinutes": 15,
+					"subsequentRate": 0.55,
+					"rounding": "up"
+				},
+				{
+					"from": "18:00",
+					"to": "11:59",
+					"billing": "perEntry",
+					"rate": 3.25
+				}
+			],
+			"saturday-sunday": [
+				{
+					"from": "00:00",
+					"to": "18:00",
+					"billing": "tieredDuration",
+					"firstMinutes": 60,
+					"firstRate": 1.95,
+					"subsequentIntervalMinutes": 15,
+					"subsequentRate": 0.55,
+					"rounding": "up"
+				},
+				{
+					"from": "18:00",
+					"to": "11:59",
+					"billing": "perEntry",
+					"rate": 3.25
+				}
+			],
+			"publicHoliday": [
+				{
+					"from": "00:00",
+					"to": "18:00",
+					"billing": "tieredDuration",
+					"firstMinutes": 60,
+					"firstRate": 1.95,
+					"subsequentIntervalMinutes": 15,
+					"subsequentRate": 0.55,
+					"rounding": "up"
+				},
+				{
+					"from": "18:00",
+					"to": "11:59",
+					"billing": "perEntry",
+					"rate": 3.25
+				}
+			]
+		}
+	},
+	{
+		"CarParkID": "MS",
+		"name": "Marina Square",
+		"country": "Singapore",
+		"lat": 1.291960,
+		"lng": 103.857614,
+		"capacity": 1900,
+		"EVCharging": true,
+		"clearance": 2.0,
+		"address": "6 Raffles Boulevard, Marina Square, S(039594)",
+		"servesBuildings": [
+			{
+				"name": "Marina Square",
+				"accessType": "Direct access"
+			},
+			{
+				"name": "Mandarin Oriental, Singapore",
+				"accessType": "Shared carpark"
+			},
+			{
+				"name": "Pan Pacific Singapore",
+				"accessType": "Shared carpark"
+			},
+			{
+				"name": "Millenia Walk",
+				"accessType": "Internal connection"
+			},
+			{
+				"name": "Millenia Tower",
+				"accessType": "Internal connection"
+			},
+			{
+				"name": "Parkroyal Collection Marina Bay",
+				"accessType": "Internal connection"
+			},
+			{
+				"name": "One Raffles Link",
+				"accessType": "Internal connection"
+			}
+		],
+		"photos": [
+			{
+				"type": "streetview",
+				"embedUrl": "https://www.google.com/maps/embed?pb=!4v1787837742368!6m8!1m7!1sLBWFy9W3ie6fecDY6RVoyg!2m2!1d1.292002354291997!2d103.8578567255763!3f200.2545032256046!4f1.672247965310774!5f1.6057699552577929",
+				"caption": "Google Street View"
+			}
+		],
+		"ParkingRates": {
+			"gracePeriodMinutes": 10,
+			"monday-thursday": [
+				{
+					"from": "07:00",
+					"to": "17:00",
+					"billing": "tieredDuration",
+					"firstMinutes": 120,
+					"firstRate": 3.27,
+					"subsequentIntervalMinutes": 30,
+					"subsequentRate": 1.64,
+					"rounding": "up"
+				},
+				{
+					"from": "17:00",
+					"to": "23:00",
+					"billing": "perEntry",
+					"rate": 2.25
+				},
+				{
+					"from": "23:00",
+					"to": "07:00",
+					"billing": "interval",
+					"rate": 1.12,
+					"intervalMinutes": 30,
+					"rounding": "up"
+				}
+			],
+			"friday-sunday": [
+				{
+					"from": "07:00",
+					"to": "02:00",
+					"billing": "multiTierDuration",
+					"tiers": [
+						{
+							"minutes": 120,
+							"rate": 2.44
+						},
+						{
+							"minutes": 60,
+							"rate": 1.22
+						},
+						{
+							"minutes": 30,
+							"rate": 1.43,
+							"repeat": true
+						}
+					],
+					"rounding": "up"
+				},
+				{
+					"from": "02:00",
+					"to": "07:00",
+					"billing": "interval",
+					"rate": 1.12,
+					"intervalMinutes": 30,
+					"rounding": "up"
+				}
+			],
+			"publicHoliday": [
+				{
+					"from": "07:00",
+					"to": "02:00",
+					"billing": "multiTierDuration",
+					"tiers": [
+						{
+							"minutes": 120,
+							"rate": 2.44
+						},
+						{
+							"minutes": 60,
+							"rate": 1.22
+						},
+						{
+							"minutes": 30,
+							"rate": 1.43,
+							"repeat": true
+						}
+					],
+					"rounding": "up"
+				},
+				{
+					"from": "02:00",
+					"to": "07:00",
+					"billing": "interval",
+					"rate": 1.12,
+					"intervalMinutes": 30,
+					"rounding": "up"
+				}
+			]
+		}
+	},
+	{
+		"CarParkID": "PPH",
+		"name": "Pan Pacific Hotel",
+		"country": "Singapore",
+		"lat": 1.291967,
+		"lng": 103.859200,
+		"capacity": 1900,
+		"EVCharging": true,
+		"clearance": 1.9,
+		"address": "7 Raffles Boulevard, S(039595)",
+		"servesBuildings": [
+			{
+				"name": "Marina Square",
+				"accessType": "Direct access"
+			},
+			{
+				"name": "Mandarin Oriental, Singapore",
+				"accessType": "Shared carpark"
+			},
+			{
+				"name": "Pan Pacific Singapore",
+				"accessType": "Shared carpark"
+			},
+			{
+				"name": "Millenia Walk",
+				"accessType": "Internal connection"
+			},
+			{
+				"name": "Millenia Tower",
+				"accessType": "Internal connection"
+			},
+			{
+				"name": "Parkroyal Collection Marina Bay",
+				"accessType": "Internal connection"
+			},
+			{
+				"name": "One Raffles Link",
+				"accessType": "Internal connection"
+			}
+		],
+		"photos": [
+			{
+				"type": "streetview",
+				"embedUrl": "https://www.google.com/maps/embed?pb=!4v1788010930255!6m8!1m7!1sfyZDkyHwDDH-8mk3x8RFhQ!2m2!1d1.292099906165898!2d103.8590746784318!3f130.83!4f-3.530000000000001!5f2.6279027145397786",
+				"caption": "Google Street View"
+			}
+		],
+		"ParkingRates": {
+			"gracePeriodMinutes": 10,
+			"monday-thursday": [
+				{
+					"from": "07:00",
+					"to": "17:00",
+					"billing": "tieredDuration",
+					"firstMinutes": 120,
+					"firstRate": 3.27,
+					"subsequentIntervalMinutes": 30,
+					"subsequentRate": 1.64,
+					"rounding": "up"
+				},
+				{
+					"from": "17:00",
+					"to": "23:00",
+					"billing": "perEntry",
+					"rate": 2.25
+				},
+				{
+					"from": "23:00",
+					"to": "07:00",
+					"billing": "interval",
+					"rate": 1.12,
+					"intervalMinutes": 30,
+					"rounding": "up"
+				}
+			],
+			"friday-sunday": [
+				{
+					"from": "07:00",
+					"to": "02:00",
+					"billing": "multiTierDuration",
+					"tiers": [
+						{
+							"minutes": 120,
+							"rate": 2.44
+						},
+						{
+							"minutes": 60,
+							"rate": 1.22
+						},
+						{
+							"minutes": 30,
+							"rate": 1.43,
+							"repeat": true
+						}
+					],
+					"rounding": "up"
+				},
+				{
+					"from": "02:00",
+					"to": "07:00",
+					"billing": "interval",
+					"rate": 1.12,
+					"intervalMinutes": 30,
+					"rounding": "up"
+				}
+			],
+			"publicHoliday": [
+				{
+					"from": "07:00",
+					"to": "02:00",
+					"billing": "multiTierDuration",
+					"tiers": [
+						{
+							"minutes": 120,
+							"rate": 2.44
+						},
+						{
+							"minutes": 60,
+							"rate": 1.22
+						},
+						{
+							"minutes": 30,
+							"rate": 1.43,
+							"repeat": true
+						}
+					],
+					"rounding": "up"
+				},
+				{
+					"from": "02:00",
+					"to": "07:00",
+					"billing": "interval",
+					"rate": 1.12,
+					"intervalMinutes": 30,
+					"rounding": "up"
+				}
+			]
+		}
+	},
+	{
+		"CarParkID": "VIVOP3",
+		"name": "VivoCity (P3)",
+		"country": "Singapore",
+		"lat": 1.264972,
+		"lng": 103.820838,
+		"capacity": 2179,
+		"EVCharging": true,
+		"clearance": 2.1,
+		"address": "1 HarbourFront Walk, S(098585)",
+		"photos": [
+			{
+				"type": "streetview",
+				"embedUrl": "https://www.google.com/maps/embed?pb=!4v1788012676765!6m8!1m7!1sKVQ4YZoVuOXoMKRNUuM3kA!2m2!1d1.265025158884129!2d103.8207983864484!3f191.24071436178582!4f-16.696520970770322!5f0.7820865974627469",
+				"caption": "Google Street View"
+			}
+		],
+		"ParkingRates": {
+			"gracePeriodMinutes": 10,
+			"monday-friday": [
+				{
+					"from": "00:00",
+					"to": "04:00",
+					"billing": "perEntry",
+					"rate": 3.20
+				},
+				{
+					"from": "04:00",
+					"to": "00:00",
+					"billing": "tieredDuration",
+					"firstMinutes": 60,
+					"firstRate": 1.60,
+					"subsequentIntervalMinutes": 30,
+					"subsequentRate": 0.80,
+					"rounding": "up"
+				}
+			],
+			"saturday-sunday": [
+				{
+					"from": "00:00",
+					"to": "04:00",
+					"billing": "perEntry",
+					"rate": 4.80
+				},
+				{
+					"from": "04:00",
+					"to": "00:00",
+					"billing": "tieredDuration",
+					"firstMinutes": 60,
+					"firstRate": 2.20,
+					"subsequentIntervalMinutes": 30,
+					"subsequentRate": 1.10,
+					"rounding": "up"
+				}
+			],
+			"publicHoliday": [
+				{
+					"from": "00:00",
+					"to": "04:00",
+					"billing": "perEntry",
+					"rate": 4.80
+				},
+				{
+					"from": "04:00",
+					"to": "00:00",
+					"billing": "tieredDuration",
+					"firstMinutes": 60,
+					"firstRate": 2.20,
+					"subsequentIntervalMinutes": 30,
+					"subsequentRate": 1.10,
+					"rounding": "up"
+				}
+			]
+		}
+	},
+	{
+		"CarParkID": "VIVOP2",
+		"name": "VivoCity (P2)",
+		"country": "Singapore",
+		"lat": 1.265573,
+		"lng": 103.822858,
+		"capacity": 2179,
+		"EVCharging": true,
+		"clearance": 2.1,
+		"address": "1 HarbourFront Walk, S(098585)",
+		"photos": [
+			{
+				"type": "streetview",
+				"embedUrl": "https://www.google.com/maps/embed?pb=!4v1788014079982!6m8!1m7!1sWuZYSGb1lV2x2qG9y0g2fQ!2m2!1d1.265546179273378!2d103.8228461565067!3f203.82600886204023!4f-4.815824665351684!5f0.7820865974627469",
+				"caption": "Google Street View"
+			}
+		],
+		"ParkingRates": {
+			"gracePeriodMinutes": 10,
+			"monday-friday": [
+				{
+					"from": "00:00",
+					"to": "04:00",
+					"billing": "perEntry",
+					"rate": 3.20
+				},
+				{
+					"from": "04:00",
+					"to": "00:00",
+					"billing": "tieredDuration",
+					"firstMinutes": 60,
+					"firstRate": 1.60,
+					"subsequentIntervalMinutes": 30,
+					"subsequentRate": 0.80,
+					"rounding": "up"
+				}
+			],
+			"saturday-sunday": [
+				{
+					"from": "00:00",
+					"to": "04:00",
+					"billing": "perEntry",
+					"rate": 4.80
+				},
+				{
+					"from": "04:00",
+					"to": "00:00",
+					"billing": "tieredDuration",
+					"firstMinutes": 60,
+					"firstRate": 2.20,
+					"subsequentIntervalMinutes": 30,
+					"subsequentRate": 1.10,
+					"rounding": "up"
+				}
+			],
+			"publicHoliday": [
+				{
+					"from": "00:00",
+					"to": "04:00",
+					"billing": "perEntry",
+					"rate": 4.80
+				},
+				{
+					"from": "04:00",
+					"to": "00:00",
+					"billing": "tieredDuration",
+					"firstMinutes": 60,
+					"firstRate": 2.20,
+					"subsequentIntervalMinutes": 30,
+					"subsequentRate": 1.10,
+					"rounding": "up"
+				}
+			]
+		}
+	},
+	{
+		"CarParkID": "JEM",
+		"name": "JEM",
+		"country": "Singapore",
+		"lat": 1.33314,
+		"lng": 103.7436,
+		"capacity": 900,
+		"EVCharging": true,
+		"clearance": 2.2,
+		"address": "50 Jurong Gateway Road, S(608549)",
+		"photos": [
+			{
+				"type": "streetview",
+				"embedUrl": "https://www.google.com/maps/embed?pb=!4v1788095443060!6m8!1m7!1sZIhYJXExJAqPd6Y4h8DQuw!2m2!1d1.333083958328177!2d103.7439290682073!3f341.53608979159003!4f-7.59202374302518!5f0.7820865974627469",
+				"caption": "Google Street View"
+			}
+		],
+		"ParkingRates": {
+			"gracePeriodMinutes": 10,
+			"monday-thursday": [
+				{
+					"from": "06:00",
+					"to": "17:59",
+					"billing": "tieredDuration",
+					"firstMinutes": 60,
+					"firstRate": 2.18,
+					"subsequentIntervalMinutes": 15,
+					"subsequentRate": 0.55,
+					"rounding": "up"
+				},
+				{
+					"from": "18:00",
+					"to": "05:59",
+					"billing": "perEntry",
+					"rate": 3.27
+				}
+			],
+			"friday": [
+				{
+					"from": "00:00",
+					"to": "00:00",
+					"billing": "interval",
+					"rate": 1.3,
+					"intervalMinutes": 30,
+					"rounding": "up"
+				}
+			],
+			"saturday": [
+				{
+					"from": "00:00",
+					"to": "00:00",
+					"billing": "interval",
+					"rate": 1.5,
+					"intervalMinutes": 30,
+					"rounding": "up"
+				}
+			],
+			"sunday": [
+				{
+					"from": "00:00",
+					"to": "00:00",
+					"billing": "interval",
+					"rate": 1.5,
+					"intervalMinutes": 30,
+					"rounding": "up"
+				}
+			],
+			"publicHoliday": [
+				{
+					"from": "00:00",
+					"to": "00:00",
+					"billing": "interval",
+					"rate": 1.5,
+					"intervalMinutes": 30,
+					"rounding": "up"
+				}
+			]
+		}
+	},
+	{
+		"DestinationID": "MDFC",
+		"name": "Margaret Drive Food Centre",
+		"address": "38A Margaret Drive, Singapore",
+		"lat": 1.297458,
+		"lng": 103.804915,
+		"parkingType": "nearby",
+		"parkingNotice": "No on-site carpark. Use a nearby carpark.",
+		"recommendedCarparks": [
+			{
+				"CarParkID": "HDB_DSR2",
+				"recommended": true
+			},
+			{
+				"CarParkID": "HDB002",
+				"recommended": false
+			}
+		]
+	},
+	{
+		"CarParkID": "HDB_DSR2",
+		"name": "HDB SkyResidence @ Dawson Blk 37A (MSCP)",
+		"country": "Singapore",
+		"lat": 1.298113,
+		"lng": 103.805132,
+		"capacity": null,
+		"EVCharging": true,
+		"clearance": 2.15,
+		"address": "37A Margaret Drive, S(144037)",
+		"photos": [
+			{
+				"type": "streetview",
+				"embedUrl": "https://www.google.com/maps/embed?pb=!4v1788095288177!6m8!1m7!1sAp0NAUt3jsyQVDjWAmcvlA!2m2!1d1.298462277112283!2d103.8051347182679!3f194.31789997429814!4f4.514173551141923!5f0.7820865974627469",
+				"caption": "Google Street View"
+			}
+		],
+		"ParkingRates": {
+			"gracePeriodMinutes": 15,
+			"dailyCap": 12,
+			"monday-saturday": [
+				{
+					"from": "07:00",
+					"to": "22:30",
+					"billing": "interval",
+					"rate": 0.60,
+					"intervalMinutes": 30,
+					"rounding": "up"
+				},
+				{
+					"from": "22:30",
+					"to": "07:00",
+					"billing": "interval",
+					"rate": 0.60,
+					"intervalMinutes": 30,
+					"rounding": "up",
+					"periodCap": 5
+				}
+			],
+			"sunday": [
+				{
+					"from": "07:00",
+					"to": "22:30",
+					"billing": "free"
+				}
+			],
+			"publicHoliday": [
+				{
+					"from": "07:00",
+					"to": "22:30",
+					"billing": "free"
+				}
+			]
+		}
+	}
 ]

@@ -810,7 +810,7 @@
   "ParkingRates": {
     "gracePeriodMinutes": 15,
     "dailyCap": 12,
-      "monday-sunday": [
+      "monday-saturday": [
       {
           "from": "07:00",
           "to": "22:30",
@@ -829,14 +829,11 @@
           "periodCap": 5
       }
       ],
-      "publicHoliday": [
+      "sunday-publicHoliday": [
         {
           "from": "07:00",
-          "to": "10:30",
-          "billing": "interval",
-          "rate": 1.30,
-          "intervalMinutes": 30,
-          "rounding": "up"
+          "to": "22:30",
+          "billing": "free"
         }
       ]
     }

@@ -825,7 +825,8 @@
           "billing": "interval",
           "rate": 0.60,
           "intervalMinutes": 30,
-          "rounding": "up"
+          "rounding": "up",
+          "periodCap": 5
       }
       ],
       "publicHoliday": [

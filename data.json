@@ -785,17 +785,17 @@
 },
 
 {
-  "DestinationID": "HDB_DSR2",
-  "name": "Margaret Drive Food Centre",
-  "address": "38A Margaret Drive, Singapore",
+  "CarParkID": "HDB_DSR2",
+  "name": "HDB Carpark Near Margaret Drive Food Centre",
+  "country": "Singapore",
   "lat": 1.298113,
   "lng": 103.805132,
-    "capacity": 900,
-    "EVCharging": true,
-    "address": "50 Jurong Gateway Road, S(608549)",
-    "photos": [],
-    "ParkingRates": {
-      "gracePeriodMinutes": 15,
+  "capacity": 900,
+  "EVCharging": true,
+  "address": "Correct HDB carpark address",
+  "photos": [],
+  "ParkingRates": {
+    "gracePeriodMinutes": 15,
       "monday": [
         {
           "from": "00:00",

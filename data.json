@@ -829,13 +829,21 @@
           "periodCap": 5
       }
       ],
-      "sunday-publicHoliday": [
-        {
-          "from": "07:00",
-          "to": "22:30",
-          "billing": "free"
-        }
-      ]
+  "sunday": [
+    {
+      "from": "00:00",
+      "to": "00:00",
+      "billing": "free"
+    }
+  ],
+
+  "publicHoliday": [
+    {
+      "from": "00:00",
+      "to": "00:00",
+      "billing": "free"
+    }
+  ]
     }
   }
   

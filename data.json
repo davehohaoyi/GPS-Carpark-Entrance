@@ -790,8 +790,9 @@
   "country": "Singapore",
   "lat": 1.298113,
   "lng": 103.805132,
-  "capacity": 900,
+  "capacity": null,
   "EVCharging": true,
+  "clearance": 2.15,
   "address": "Correct HDB carpark address",
   "photos": [],
   "ParkingRates": {

@@ -677,6 +677,7 @@
     "lng": 103.7436,
     "capacity": 900,
     "EVCharging": true,
+    "clearance": 2.2,
     "address": "50 Jurong Gateway Road, S(608549)",
     "photos": [
       {
@@ -686,11 +687,11 @@
       }
     ],
     "ParkingRates": {
-      "gracePeriodMinutes": 15,
-      "monday": [
+      "gracePeriodMinutes": 10,
+      "monday-thursday": [
         {
-          "from": "00:00",
-          "to": "00:00",
+          "from": "06:00",
+          "to": "17:59",
           "billing": "interval",
           "rate": 1.3,
           "intervalMinutes": 30,
@@ -831,16 +832,16 @@
       ],
   "sunday": [
     {
-      "from": "00:00",
-      "to": "00:00",
+      "from": "07:00",
+      "to": "22:30",
       "billing": "free"
     }
   ],
 
   "publicHoliday": [
     {
-      "from": "00:00",
-      "to": "00:00",
+      "from": "07:00",
+      "to": "22:30",
       "billing": "free"
     }
   ]

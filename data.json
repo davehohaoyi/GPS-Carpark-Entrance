@@ -800,6 +800,7 @@
         "embedUrl": "https://www.google.com/maps/embed?pb=!4v1788095288177!6m8!1m7!1sAp0NAUt3jsyQVDjWAmcvlA!2m2!1d1.298462277112283!2d103.8051347182679!3f194.31789997429814!4f4.514173551141923!5f0.7820865974627469",
         "caption": "Google Street View"
       }
+      ],
   "ParkingRates": {
     "gracePeriodMinutes": 15,
     "dailyCap": 12,

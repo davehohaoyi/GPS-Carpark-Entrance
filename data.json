@@ -69,7 +69,7 @@
         "photos": [
             {
                 "type": "streetview",
-                "embedUrl": "https://www.google.com/maps/embed?pb=!4v1787810670672!6m8!1m7!1suEggHfVSG2sKCN-6Q886tg!2m2!1d1.303058277356363!2d103.8319037511866!3f356.1178762568587!4f-1.3491329438073905!5f2.6828621079741213",
+                "embedUrl": "https://www.google.com/maps/embed?pb=!4v1788086582061!6m8!1m7!1sZIhYJXExJAqPd6Y4h8DQuw!2m2!1d1.333083958328177!2d103.7439290682073!3f338.8326580091505!4f0.03663219628745651!5f0.7820865974627469",
                 "caption": "Google Street View"
             }
         ],
@@ -159,16 +159,16 @@
         "CarParkID": "JEM",
         "name": "JEM",
         "country": "Singapore",
-        "lat": 1.33314,
-        "lng": 103.7436,
-        "capacity": 900,
+        "lat": 1.333169,
+        "lng": 103.743913,
+        "capacity": 669,
         "EVCharging": true,
         "address": "50 Jurong Gateway Road, S(608549)",
         "photos": [
         ],
         "ParkingRates": {
-            "gracePeriodMinutes": 15,
-            "monday": [
+            "gracePeriodMinutes": 10,
+            "monday-thursday": [
                 {
                     "from": "00:00",
                     "to": "00:00",

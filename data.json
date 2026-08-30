@@ -797,82 +797,23 @@
   "photos": [],
   "ParkingRates": {
     "gracePeriodMinutes": 15,
-      "monday": [
-        {
-          "from": "00:00",
-          "to": "00:00",
+    "dailyCap": 12,
+      "monday-sunday": [
+      {
+          "from": "07:00",
+          "to": "10:30",
           "billing": "interval",
-          "rate": 1.3,
+          "rate": 1.30,
           "intervalMinutes": 30,
           "rounding": "up"
-        }
-      ],
-      "tuesday": [
-        {
-          "from": "00:00",
-          "to": "00:00",
-          "billing": "interval",
-          "rate": 1.3,
-          "intervalMinutes": 30,
-          "rounding": "up"
-        }
-      ],
-      "wednesday": [
-        {
-          "from": "00:00",
-          "to": "00:00",
-          "billing": "interval",
-          "rate": 1.3,
-          "intervalMinutes": 30,
-          "rounding": "up"
-        }
-      ],
-      "thursday": [
-        {
-          "from": "00:00",
-          "to": "00:00",
-          "billing": "interval",
-          "rate": 1.3,
-          "intervalMinutes": 30,
-          "rounding": "up"
-        }
-      ],
-      "friday": [
-        {
-          "from": "00:00",
-          "to": "00:00",
-          "billing": "interval",
-          "rate": 1.3,
-          "intervalMinutes": 30,
-          "rounding": "up"
-        }
-      ],
-      "saturday": [
-        {
-          "from": "00:00",
-          "to": "00:00",
-          "billing": "interval",
-          "rate": 1.5,
-          "intervalMinutes": 30,
-          "rounding": "up"
-        }
-      ],
-      "sunday": [
-        {
-          "from": "00:00",
-          "to": "00:00",
-          "billing": "interval",
-          "rate": 1.5,
-          "intervalMinutes": 30,
-          "rounding": "up"
-        }
+      }
       ],
       "publicHoliday": [
         {
-          "from": "00:00",
-          "to": "00:00",
+          "from": "07:00",
+          "to": "10:30",
           "billing": "interval",
-          "rate": 1.5,
+          "rate": 1.30,
           "intervalMinutes": 30,
           "rounding": "up"
         }

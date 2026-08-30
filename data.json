@@ -678,7 +678,13 @@
     "capacity": 900,
     "EVCharging": true,
     "address": "50 Jurong Gateway Road, S(608549)",
-    "photos": [],
+    "photos": [
+      {
+        "type": "streetview",
+        "embedUrl": "https://www.google.com/maps/embed?pb=!4v1788095443060!6m8!1m7!1sZIhYJXExJAqPd6Y4h8DQuw!2m2!1d1.333083958328177!2d103.7439290682073!3f341.53608979159003!4f-7.59202374302518!5f0.7820865974627469",
+        "caption": "Google Street View"
+      }
+    ],
     "ParkingRates": {
       "gracePeriodMinutes": 15,
       "monday": [

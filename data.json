@@ -78,7 +78,7 @@
 			"monday-thursday": [
 				{
 					"from": "00:00",
-					"to": "08:00",
+					"to": "07:59",
 					"billing": "interval",
 					"rate": 1.09,
 					"intervalMinutes": 60,
@@ -86,7 +86,7 @@
 				},
 				{
 					"from": "08:00",
-					"to": "17:00",
+					"to": "16:59",
 					"billing": "tieredDuration",
 					"firstMinutes": 60,
 					"firstRate": 2.73,
@@ -96,7 +96,7 @@
 				},
 				{
 					"from": "17:00",
-					"to": "00:00",
+					"to": "23:59",
 					"billing": "perEntry",
 					"rate": 3.05
 				}
@@ -104,7 +104,7 @@
 			"friday-sunday": [
 				{
 					"from": "00:00",
-					"to": "08:00",
+					"to": "07:59",
 					"billing": "interval",
 					"rate": 1.09,
 					"intervalMinutes": 60,
@@ -112,7 +112,7 @@
 				},
 				{
 					"from": "08:00",
-					"to": "18:00",
+					"to": "17:59",
 					"billing": "tieredDuration",
 					"firstMinutes": 60,
 					"firstRate": 2.62,
@@ -122,7 +122,7 @@
 				},
 				{
 					"from": "18:00",
-					"to": "00:00",
+					"to": "23:59",
 					"billing": "perEntry",
 					"rate": 3.82
 				}
@@ -130,7 +130,7 @@
 			"publicHoliday": [
 				{
 					"from": "00:00",
-					"to": "08:00",
+					"to": "07:59",
 					"billing": "interval",
 					"rate": 1.09,
 					"intervalMinutes": 60,
@@ -138,7 +138,7 @@
 				},
 				{
 					"from": "08:00",
-					"to": "18:00",
+					"to": "17:59",
 					"billing": "tieredDuration",
 					"firstMinutes": 60,
 					"firstRate": 2.62,
@@ -148,7 +148,7 @@
 				},
 				{
 					"from": "18:00",
-					"to": "00:00",
+					"to": "23:59",
 					"billing": "perEntry",
 					"rate": 3.82
 				}

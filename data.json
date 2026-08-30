@@ -826,7 +826,7 @@
           "rate": 0.60,
           "intervalMinutes": 30,
           "rounding": "up"
-      },
+      }
       ],
       "publicHoliday": [
         {

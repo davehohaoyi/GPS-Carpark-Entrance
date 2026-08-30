@@ -813,12 +813,20 @@
       "monday-sunday": [
       {
           "from": "07:00",
-          "to": "10:30",
+          "to": "22:30",
           "billing": "interval",
-          "rate": 1.30,
+          "rate": 0.60,
           "intervalMinutes": 30,
           "rounding": "up"
-      }
+      },
+      {
+          "from": "22:30",
+          "to": "07:00",
+          "billing": "interval",
+          "rate": 0.60,
+          "intervalMinutes": 30,
+          "rounding": "up"
+      },
       ],
       "publicHoliday": [
         {

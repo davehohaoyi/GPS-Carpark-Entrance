@@ -1,5 +1,46 @@
 [
 	{
+		"CarParkID": "URA_A0004",
+		"apiProvider": "URA",
+		"apiCarParkID": "A0004",
+		"name": "URA Aliwal Street Car Park",
+		"country": "Singapore",
+		"lat": 1.303002,
+		"lng": 103.86156,
+		"capacity": 69,
+		"EVCharging": false,
+		"clearance": null,
+		"structure": "Surface",
+		"address": "Aliwal Street, Singapore",
+		"source": "Urban Redevelopment Authority (URA)",
+		"sourceUrl": "https://www.ura.gov.sg/car-parks/",
+		"photos": [],
+		"ParkingRates": {
+			"gracePeriodMinutes": 0,
+			"dailyCap": 20,
+			"monday-sunday": [
+				{
+					"from": "00:00",
+					"to": "00:00",
+					"billing": "interval",
+					"rate": 0.60,
+					"intervalMinutes": 30,
+					"rounding": "up"
+				}
+			],
+			"publicHoliday": [
+				{
+					"from": "00:00",
+					"to": "00:00",
+					"billing": "interval",
+					"rate": 0.60,
+					"intervalMinutes": 30,
+					"rounding": "up"
+				}
+			]
+		}
+	},
+	{
 		"CarParkID": "313S",
 		"name": "313 Somerset",
 		"country": "Singapore",

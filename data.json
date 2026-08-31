@@ -774,6 +774,8 @@
 	},
 	{
 		"CarParkID": "HDB_DSR2",
+		"apiProvider": "HDB",
+		"apiCarParkID": "DSR2",
 		"name": "HDB SkyResidence @ Dawson Blk 37A (MSCP)",
 		"country": "Singapore",
 		"lat": 1.298113,

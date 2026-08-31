@@ -9,6 +9,8 @@
 		"EVCharging": true,
 		"clearance": 2.0,
 		"address": "313 Orchard Road, S(238895)",
+		"source": "",
+		"sourceUrl": "",
 		"photos": [
 			{
 				"type": "streetview",
@@ -66,6 +68,8 @@
 		"EVCharging": true,
 		"clearance": 2.2,
 		"address": "2 Orchard Turn, S(238801)",
+		"source": "",
+		"sourceUrl": "",
 		"photos": [
 			{
 				"type": "streetview",
@@ -165,6 +169,8 @@
 		"EVCharging": true,
 		"clearance": 2.1,
 		"address": "68 Orchard Road, S(238839)",
+		"source": "",
+		"sourceUrl": "",
 		"photos": [
 			{
 				"type": "streetview",
@@ -256,6 +262,8 @@
 		"EVCharging": true,
 		"clearance": 2.0,
 		"address": "6 Raffles Boulevard, Marina Square, S(039594)",
+		"source": "",
+		"sourceUrl": "",
 		"servesBuildings": [
 			{
 				"name": "Marina Square",
@@ -395,6 +403,8 @@
 		"EVCharging": true,
 		"clearance": 1.9,
 		"address": "7 Raffles Boulevard, S(039595)",
+		"source": "",
+		"sourceUrl": "",
 		"servesBuildings": [
 			{
 				"name": "Marina Square",
@@ -534,6 +544,8 @@
 		"EVCharging": true,
 		"clearance": 2.1,
 		"address": "1 HarbourFront Walk, S(098585)",
+		"source": "",
+		"sourceUrl": "",
 		"photos": [
 			{
 				"type": "streetview",
@@ -609,6 +621,8 @@
 		"EVCharging": true,
 		"clearance": 2.1,
 		"address": "1 HarbourFront Walk, S(098585)",
+		"source": "",
+		"sourceUrl": "",
 		"photos": [
 			{
 				"type": "streetview",
@@ -684,6 +698,8 @@
 		"EVCharging": true,
 		"clearance": 2.2,
 		"address": "50 Jurong Gateway Road, S(608549)",
+		"source": "",
+		"sourceUrl": "",
 		"photos": [
 			{
 				"type": "streetview",
@@ -757,6 +773,8 @@
 		"DestinationID": "MDFC",
 		"name": "Margaret Drive Food Centre",
 		"address": "38A Margaret Drive, Singapore",
+		"source": "",
+		"sourceUrl": "",
 		"lat": 1.297458,
 		"lng": 103.804915,
 		"parkingType": "nearby",
@@ -784,6 +802,8 @@
 		"EVCharging": true,
 		"clearance": 2.15,
 		"address": "37A Margaret Drive, S(144037)",
+		"source": "HDB / data.gov.sg",
+		"sourceUrl": "https://data.gov.sg/datasets/d_ca933a644e55d34fe21f28b8052fac63/view",
 		"photos": [
 			{
 				"type": "streetview",

@@ -20,22 +20,40 @@
 			"dailyCap": 20,
 			"monday-sunday": [
 				{
-					"from": "00:00",
-					"to": "00:00",
+					"from": "07:00",
+					"to": "22:30",
 					"billing": "interval",
 					"rate": 0.60,
 					"intervalMinutes": 30,
 					"rounding": "up"
+				},
+				{
+					"from": "22:30",
+					"to": "07:00",
+					"billing": "interval",
+					"rate": 0.60,
+					"intervalMinutes": 30,
+					"rounding": "up",
+					"periodCap": 5
 				}
 			],
 			"publicHoliday": [
 				{
-					"from": "00:00",
-					"to": "00:00",
+					"from": "07:00",
+					"to": "22:30",
 					"billing": "interval",
 					"rate": 0.60,
 					"intervalMinutes": 30,
 					"rounding": "up"
+				},
+				{
+					"from": "22:30",
+					"to": "07:00",
+					"billing": "interval",
+					"rate": 0.60,
+					"intervalMinutes": 30,
+					"rounding": "up",
+					"periodCap": 5
 				}
 			]
 		}

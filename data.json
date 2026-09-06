@@ -83415,6 +83415,150 @@
       ]
     }
   },
+  
+  {
+    "CarParkID": "AMOYFC",
+    "name": "Amoy Street Food Center",
+    "country": "Singapore",
+    "lat": 1.278041,
+    "lng": 103.846298,
+    "capacity": 80,
+    "EVCharging": true,
+    "clearance": 2.0,
+    "address": "7 Maxwell Rd, Food Centre Amoy St, #01-39, S(069111)",
+    "source": "",
+    "sourceUrl": "",
+    "servesBuildings": [
+      {
+        "name": "Amoy Street Food Center",
+        "accessType": "Direct access"
+      },
+      {
+        "name": "Ministry Of National Development (MND)",
+        "accessType": "Shared carpark"
+      },
+      {
+        "name": "The URA ",
+        "accessType": "Shared carpark"
+      },
+      {
+        "name": "MND Annex A",
+        "accessType": "Shared carpark"
+      },
+      {
+        "name": "Millenia Tower",
+        "accessType": "Internal connection"
+      },
+      {
+        "name": "THe URA Center East WQing",
+        "accessType": "Internal connection"
+      },
+      {
+        "name": "Ann Siang 47",
+        "accessType": "Internal connection"
+      }
+    ],
+    "photos": [
+      {
+        "type": "streetview",
+        "embedUrl": "https://www.google.com/maps/embed?pb=!4v1788699792356!6m8!1m7!1spCo_blM-sVY8BOtGayn3-A!2m2!1d1.277884116588799!2d103.8462513772364!3f15.07048607683462!4f0!5f0.7820865974627469",
+        "caption": "Google Street View"
+      }
+    ],
+    "ParkingRates": {
+      "gracePeriodMinutes": 10,
+      "monday-thursday": [
+        {
+          "from": "07:00",
+          "to": "17:00",
+          "billing": "tieredDuration",
+          "firstMinutes": 120,
+          "firstRate": 3.27,
+          "subsequentIntervalMinutes": 30,
+          "subsequentRate": 1.64,
+          "rounding": "up"
+        },
+        {
+          "from": "17:00",
+          "to": "23:00",
+          "billing": "perEntry",
+          "rate": 2.25
+        },
+        {
+          "from": "23:00",
+          "to": "07:00",
+          "billing": "interval",
+          "rate": 1.12,
+          "intervalMinutes": 30,
+          "rounding": "up"
+        }
+      ],
+      "friday-sunday": [
+        {
+          "from": "07:00",
+          "to": "02:00",
+          "billing": "multiTierDuration",
+          "tiers": [
+            {
+              "minutes": 120,
+              "rate": 2.44
+            },
+            {
+              "minutes": 60,
+              "rate": 1.22
+            },
+            {
+              "minutes": 30,
+              "rate": 1.43,
+              "repeat": true
+            }
+          ],
+          "rounding": "up"
+        },
+        {
+          "from": "02:00",
+          "to": "07:00",
+          "billing": "interval",
+          "rate": 1.12,
+          "intervalMinutes": 30,
+          "rounding": "up"
+        }
+      ],
+      "publicHoliday": [
+        {
+          "from": "07:00",
+          "to": "02:00",
+          "billing": "multiTierDuration",
+          "tiers": [
+            {
+              "minutes": 120,
+              "rate": 2.44
+            },
+            {
+              "minutes": 60,
+              "rate": 1.22
+            },
+            {
+              "minutes": 30,
+              "rate": 1.43,
+              "repeat": true
+            }
+          ],
+          "rounding": "up"
+        },
+        {
+          "from": "02:00",
+          "to": "07:00",
+          "billing": "interval",
+          "rate": 1.12,
+          "intervalMinutes": 30,
+          "rounding": "up"
+        }
+      ]
+    }
+  },
+  
+  
   {
     "CarParkID": "JEM",
     "name": "JEM",

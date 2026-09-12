@@ -82937,56 +82937,34 @@
           "rate": 3.20
         }
       ],
-      "friday-sunday": [
+      "saturday-sunday": [
         {
-          "from": "00:00",
-          "to": "07:59",
+          "from": "04:00",
+          "to": "21:59",
           "billing": "interval",
-          "rate": 1.09,
-          "intervalMinutes": 60,
+          "rate": 0.60,
+          "intervalMinutes": 30,
           "rounding": "up"
         },
         {
-          "from": "08:00",
-          "to": "17:59",
-          "billing": "tieredDuration",
-          "firstMinutes": 60,
-          "firstRate": 2.62,
-          "subsequentIntervalMinutes": 30,
-          "subsequentRate": 1.91,
-          "rounding": "up"
-        },
-        {
-          "from": "18:00",
-          "to": "23:59",
+          "to": "15:59",
           "billing": "perEntry",
-          "rate": 3.82
+          "rate": 3.20
         }
       ],
       "publicHoliday": [
         {
-          "from": "00:00",
-          "to": "07:59",
+          "from": "04:00",
+          "to": "21:59",
           "billing": "interval",
-          "rate": 1.09,
-          "intervalMinutes": 60,
+          "rate": 0.60,
+          "intervalMinutes": 30,
           "rounding": "up"
         },
         {
-          "from": "08:00",
-          "to": "17:59",
-          "billing": "tieredDuration",
-          "firstMinutes": 60,
-          "firstRate": 2.62,
-          "subsequentIntervalMinutes": 30,
-          "subsequentRate": 1.91,
-          "rounding": "up"
-        },
-        {
-          "from": "18:00",
-          "to": "23:59",
+          "to": "15:59",
           "billing": "perEntry",
-          "rate": 3.82
+          "rate": 3.20
         }
       ]
     }

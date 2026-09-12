@@ -82785,6 +82785,68 @@
       ]
     }
   },
+  
+  {
+    "CarParkID": "AMKHUB",
+    "name": "AMK Hub",
+    "country": "Singapore",
+    "lat": 1.368970,
+    "lng": 103.847557,
+    "capacity": 220,
+    "EVCharging": true,
+    "clearance": 2.1,
+    "address": "53 Ang Mo Kio Ave 3, S(569933)",
+    "source": "",
+    "sourceUrl": "https://www.lprivileges.com/malls/amk-hub",
+    "photos": [
+      {
+        "type": "streetview",
+        "embedUrl": "https://www.google.com/maps/embed?pb=!4v1789187580808!6m8!1m7!1sm4r9V5w_E6jd3hqmJVIwUg!2m2!1d1.368912599214304!2d103.8475264609688!3f30.407307110154697!4f0.9517489029899195!5f0.7820865974627469",
+        "caption": "Google Street View"
+      }
+    ],
+    "ParkingRates": {
+      "gracePeriodMinutes": 10,
+      "monday-friday": [
+        {
+          "from": "00:00",
+          "to": "23:59",
+          "billing": "tieredDuration",
+          "firstMinutes": 60,
+          "firstRate": 1.70,
+          "subsequentIntervalMinutes": 30,
+          "subsequentRate": 0.85,
+          "rounding": "up"
+        }
+      ],
+      "saturday-sunday": [
+        {
+          "from": "00:00",
+          "to": "23:59",
+          "billing": "tieredDuration",
+          "firstMinutes": 60,
+          "firstRate": 1.80,
+          "subsequentIntervalMinutes": 30,
+          "subsequentRate": 0.95,
+          "rounding": "up"
+        }
+      ],
+      "publicHoliday": [
+        {
+          "from": "00:00",
+          "to": "23:59",
+          "billing": "tieredDuration",
+          "firstMinutes": 60,
+          "firstRate": 1.80,
+          "subsequentIntervalMinutes": 30,
+          "subsequentRate": 0.95,
+          "rounding": "up"
+        }
+      ]
+    }
+  },
+  
+  
   {
     "CarParkID": "ION",
     "name": "ION Orchard",

@@ -82912,39 +82912,29 @@
         {
           "from": "04:00",
           "to": "11:59",
-          "billing": "multiTierDuration",
-          "tiers": [
-            {
-              "minutes": 30,
-              "rate": 0.60
-            },
-            {
-              "minutes": 60,
-              "rate": 1.22
-            },
-            {
-              "minutes": 30,
-              "rate": 1.43,
-              "repeat": true
-            }
-          ],
+          "billing": "interval",
+          "rate": 1.09,
+          "intervalMinutes": 60,
           "rounding": "up"
         },
         {
-          "from": "08:00",
-          "to": "16:59",
-          "billing": "tieredDuration",
-          "firstMinutes": 60,
-          "firstRate": 2.73,
-          "subsequentIntervalMinutes": 30,
-          "subsequentRate": 1.31,
+          "from": "12:00",
+          "to": "13:59",
+          "billing": "free"
+        },
+        {
+          "from": "02:00",
+          "to": "21:59",
+          "billing": "interval",
+          "rate": 0.60,
+          "intervalMinutes": 30,
           "rounding": "up"
         },
         {
-          "from": "17:00",
-          "to": "23:59",
+          "from": "22:00",
+          "to": "15:59",
           "billing": "perEntry",
-          "rate": 3.05
+          "rate": 3.20
         }
       ],
       "friday-sunday": [

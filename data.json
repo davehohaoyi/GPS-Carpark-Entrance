@@ -82953,18 +82953,18 @@
     "CarParkID": "SAFRAYISHUN",
     "name": "Safra Yishun",
     "country": "Singapore",
-    "lat": 1.423767,
-    "lng": 103.840570,
-    "capacity": 500,
+    "lat": 1.423750,
+    "lng": 103.840644,
+    "capacity": 222,
     "EVCharging": true,
-    "clearance": 2.2,
-    "address": "2 Orchard Turn, S(238801)",
+    "clearance": 2.1,
+    "address": "60 Yishun Ave 4, S(769027)",
     "source": "",
     "sourceUrl": "",
     "photos": [
       {
         "type": "streetview",
-        "embedUrl": "https://www.google.com/maps/embed?pb=!4v1787810670672!6m8!1m7!1suEggHfVSG2sKCN-6Q886tg!2m2!1d1.303058277356363!2d103.8319037511866!3f356.1178762568587!4f-1.3491329438073905!5f2.6828621079741213",
+        "embedUrl": "https://www.google.com/maps/embed?pb=!4v1790169212314!6m8!1m7!1ssjcC6hczzlqp0-xQfozU2w!2m2!1d1.423732068091954!2d103.8405243519127!3f66.55969266435382!4f-2.975186305554516!5f0.7820865974627469",
         "caption": "Google Street View"
       }
     ],

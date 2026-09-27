@@ -83020,58 +83020,56 @@
     "lat": 1.289628,
     "lng": 103.849529,
     "capacity": 222,
-    "EVCharging": true,
-    "clearance": 2.1,
+    "EVCharging": false,
+    "clearance": 2.03,
     "address": "77, High Street, High Street Plaza, #04-05, S(179433)",
     "source": "",
     "sourceUrl": "",
     "photos": [
       {
         "type": "streetview",
-        "embedUrl": "https://www.google.com/maps/embed?pb=!4v1790169212314!6m8!1m7!1ssjcC6hczzlqp0-xQfozU2w!2m2!1d1.423732068091954!2d103.8405243519127!3f66.55969266435382!4f-2.975186305554516!5f0.7820865974627469",
+        "embedUrl": "https://www.google.com/maps/embed?pb=!4v1790516472302!6m8!1m7!1sb1Vt01Lwjz8dc0_3RcaPrQ!2m2!1d1.289620046707474!2d103.84958728484!3f284.35660823130087!4f2.104116519846457!5f0.7820865974627469",
         "caption": "Google Street View"
       }
     ],
     "ParkingRates": {
       "gracePeriodMinutes": 0,
-      "monday-saturday": [
+      "monday-sunday": [
         {
-          "from": "06:00",
-          "to": "17:59",
+          "from": "07:00",
+          "to": "18:00",
           "billing": "tieredDuration",
           "firstMinutes": 60,
-          "firstRate": 2.12,
-          "subsequentIntervalMinutes": 15,
-          "subsequentRate": 0.53,
-          "rounding": "up"
+          "firstRate": 2.95,
+          "subsequentIntervalMinutes": 60,
+          "subsequentRate": 2.95,
+          "rounding": "up",
+          "periodCap": 9
         },
         {
-          "from": "18:00",
-          "to": "05:59",
+          "from": "18:01",
+          "to": "06:59",
           "billing": "perEntry",
-          "rate": 4.09
-        },
-        {
-          "from": "17:00",
-          "to": "23:59",
-          "billing": "perEntry",
-          "rate": 3.05
-        }
-      ],
-      "sunday": [
-        {
-          "from": "17:00",
-          "to": "23:59",
-          "billing": "perEntry",
-          "rate": 4.09
+          "rate": 3.40
         }
       ],
       "publicHoliday": [
         {
-          "from": "17:00",
-          "to": "23:59",
+          "from": "07:00",
+          "to": "18:00",
+          "billing": "tieredDuration",
+          "firstMinutes": 60,
+          "firstRate": 2.95,
+          "subsequentIntervalMinutes": 60,
+          "subsequentRate": 2.95,
+          "rounding": "up",
+          "periodCap": 9
+        },
+        {
+          "from": "18:01",
+          "to": "06:59",
           "billing": "perEntry",
-          "rate": 4.09
+          "rate": 3.40
         }
       ]
     }

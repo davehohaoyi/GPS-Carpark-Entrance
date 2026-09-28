@@ -83034,22 +83034,22 @@
     ],
     "ParkingRates": {
       "gracePeriodMinutes": 10,
-      "monday-saturday": [
+      "monday-friday": [
         {
           "from": "06:00",
-          "to": "17:59",
+          "to": "16:59",
           "billing": "tieredDuration",
-          "firstMinutes": 60,
-          "firstRate": 2.12,
-          "subsequentIntervalMinutes": 15,
-          "subsequentRate": 0.53,
+          "firstMinutes": 120,
+          "firstRate": 2.20,
+          "subsequentIntervalMinutes": 30,
+          "subsequentRate": 0.70,
           "rounding": "up"
         },
         {
-          "from": "18:00",
-          "to": "05:59",
+          "from": "17:00",
+          "to": "06:00",
           "billing": "perEntry",
-          "rate": 4.09
+          "rate": 2.95
         },
         {
           "from": "17:00",
@@ -83058,20 +83058,38 @@
           "rate": 3.05
         }
       ],
-      "sunday": [
+      "saturday": [
+        {
+          "from": "06:00",
+          "to": "16:59",
+          "billing": "tieredDuration",
+          "firstMinutes": 60,
+          "firstRate": 1.40,
+          "subsequentIntervalMinutes": 30,
+          "subsequentRate": 0.70,
+          "rounding": "up"
+        },
         {
           "from": "17:00",
-          "to": "23:59",
+          "to": "06:00",
           "billing": "perEntry",
-          "rate": 4.09
+          "rate": 2.95
         }
       ],
+      "sunday": [
+        {
+          "from": "06:00",
+          "to": "05:59",
+          "billing": "perEntry",
+          "rate": 2.95
+        }
+        ],
       "publicHoliday": [
         {
-          "from": "17:00",
-          "to": "23:59",
+          "from": "06:00",
+          "to": "05:59",
           "billing": "perEntry",
-          "rate": 4.09
+          "rate": 2.95
         }
       ]
     }

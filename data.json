@@ -82957,7 +82957,7 @@
   "lng": 103.763450,
   "capacity": 143,
   "EVCharging": true,
-  "clearance": 3,
+  "clearance": "unlimited",
   "address": "71 W Coast Hwy, S(126844)",
   "source": "",
   "sourceUrl": "",

@@ -82949,6 +82949,50 @@
     }
   },
   
+{
+  "CarParkID": "WESTCOASTPKMCDONALD",
+  "name": "West Coast Park (McDonald)",
+  "country": "Singapore",
+  "lat": 1.298188,
+  "lng": 103.763450,
+  "capacity": 143,
+  "EVCharging": true,
+  "clearance": 3,
+  "address": "71 W Coast Hwy, S(126844)",
+  "source": "",
+  "sourceUrl": "",
+  "photos": [
+    {
+      "type": "streetview",
+      "embedUrl": "https://www.google.com/maps/embed?pb=!4v1790755216690!6m8!1m7!1s-wl9X3SfrW2r-1oFr715og!2m2!1d1.298163233917581!2d103.7633804261607!3f179.36631964424575!4f-10.074104961640742!5f0.7820865974627469",
+      "caption": "Google Street View"
+    }
+  ],
+  "ParkingRates": {
+    "gracePeriodMinutes": 0,
+    "monday-sunday": [
+      {
+        "from": "00:00",
+        "to": "23:59",
+        "billing": "interval",
+        "rate": 0.60,
+        "intervalMinutes": 30,
+        "rounding": "up"
+      }
+    ],
+    "publicHoliday": [
+      {
+        "from": "00:00",
+        "to": "23:59",
+        "billing": "interval",
+        "rate": 0.60,
+        "intervalMinutes": 30,
+        "rounding": "up"
+      }
+    ]
+  }
+},
+  
   {
     "CarParkID": "SAFRAYISHUN",
     "name": "Safra Yishun",

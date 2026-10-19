@@ -83139,6 +83139,66 @@
     }
   },
   
+{
+  "CarParkID": "WATERWAYPOINT",
+  "name": "Waterway Point",
+  "country": "Singapore",
+  "lat": 1.405505,
+  "lng": 103.901911,
+  "capacity": 622,
+  "EVCharging": true,
+  "clearance": 2.2,
+  "address": "83 Punggol Central, Waterway Point, S(828761)",
+  "source": "",
+  "sourceUrl": "",
+  "photos": [
+    {
+      "type": "streetview",
+      "embedUrl": "https://www.google.com/maps/embed?pb=!4v1792382220237!6m8!1m7!1sqPV9fAEUX5n030GBbinIOg!2m2!1d1.405583113991949!2d103.9018186469755!3f66.49968019933765!4f-3.2940338022756634!5f0.7820865974627469",
+      "caption": "Google Street View"
+    }
+  ],
+  "ParkingRates": {
+    "gracePeriodMinutes": 10,
+    "monday-friday": [
+      {
+        "from": "06:00",
+        "to": "05:59",
+        "billing": "tieredDuration",
+        "firstMinutes": 60,
+        "firstRate": 1.50,
+        "subsequentIntervalMinutes": 30,
+        "subsequentRate": 0.80,
+        "rounding": "up"
+      }
+    ],
+    "saturday-sunday": [
+      {
+        "from": "06:00",
+        "to": "05:59",
+        "billing": "tieredDuration",
+        "firstMinutes": 60,
+        "firstRate": 1.60,
+        "subsequentIntervalMinutes": 30,
+        "subsequentRate": 0.80,
+        "rounding": "up"
+      }
+    ],
+    "publicHoliday": [
+      {
+        "from": "06:00",
+        "to": "05:59",
+        "billing": "tieredDuration",
+        "firstMinutes": 60,
+        "firstRate": 1.60,
+        "subsequentIntervalMinutes": 30,
+        "subsequentRate": 0.80,
+        "rounding": "up"
+      }
+    ]
+  }
+},
+  
   {
     "CarParkID": "HIGHSTREETPLAZA",
     "name": "High Street Plaza",

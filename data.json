@@ -287157,6 +287157,65 @@
       "dailyCap": 12
     }
   },
+  
+  {
+    "CarParkID": "COMPASSONE",
+    "name": "Compass One",
+    "country": "Singapore",
+    "lat": 1.392186,
+    "lng": 103.894662,
+    "capacity": 69,
+    "EVCharging": true,
+    "clearance": 2,
+    "address": "1 Sengkang Square, Compass One, S(545078)",
+    "photos": [
+      {
+        "type": "streetview",
+        "embedUrl": "https://www.google.com/maps/embed?pb=!4v1792397164352!6m8!1m7!1sB6gD15YbtmAf1L5Bha4H_g!2m2!1d1.391771279524928!2d103.894528183299!3f94.50375190982535!4f-11.092207298869951!5f0.5109860020787413",
+        "caption": "Google Street View"
+      }
+    ],
+    "ParkingRates": {
+      "gracePeriodMinutes": 0,
+      "monday-sunday": [
+        {
+          "from": "07:00",
+          "to": "23:00",
+          "billing": "tieredDuration",
+          "firstMinutes": 30,
+          "firstRate": 1.50,
+          "subsequentIntervalMinutes": 30,
+          "subsequentRate": 0.80,
+          "rounding": "up"
+        },
+        {
+          "from": "23:01",
+          "to": "06:59",
+          "billing": "perEntry",
+          "rate": 20.00
+        }
+      ],
+      "publicHoliday": [
+        {
+          "from": "07:00",
+          "to": "23:00",
+          "billing": "tieredDuration",
+          "firstMinutes": 30,
+          "firstRate": 1.50,
+          "subsequentIntervalMinutes": 30,
+          "subsequentRate": 0.80,
+          "rounding": "up"
+        },
+        {
+          "from": "23:01",
+          "to": "06:59",
+          "billing": "perEntry",
+          "rate": 20.00
+        }
+      ]
+    }
+  },
+  
   {
     "CarParkID": "HDB_Y9",
     "apiProvider": "HDB",

@@ -287275,6 +287275,58 @@
   },
   
   {
+    "CarParkID": "CQCLARKEQUAY",
+    "name": "CQ @ Clarke Quay",
+    "country": "Singapore",
+    "lat": 1.290730,
+    "lng": 103.846207,
+    "capacity": 210,
+    "EVCharging": true,
+    "clearance": 1.9,
+    "address": "3A River Valley Rd, S(179020)",
+    "source": "",
+    "sourceUrl": "",
+    "photos": [
+      {
+        "type": "streetview",
+        "embedUrl": "https://www.google.com/maps/embed?pb=!4v1793426848702!6m8!1m7!1scs7u1JyVHElIX8KkueYALA!2m2!1d1.290682474814317!2d103.8461057704063!3f92.64285478536345!4f-3.296891538697537!5f0.7820865974627469",
+        "caption": "Google Street View"
+      }
+    ],
+    "ParkingRates": {
+      "gracePeriodMinutes": 10,
+      "monday-saturday": [
+        {
+          "from": "07:00",
+          "to": "06:59",
+          "billing": "tieredDuration",
+          "firstMinutes": 60,
+          "firstRate": 1.60,
+          "subsequentIntervalMinutes": 15,
+          "subsequentRate": 0.55,
+          "rounding": "up"
+        }
+      ],
+      "sunday": [
+        {
+          "from": "07:00",
+          "to": "06:59",
+          "billing": "perEntry",
+          "rate": 3.00
+        }
+      ],
+      "publicHoliday": [
+        {
+          "from": "07:00",
+          "to": "06:59",
+          "billing": "perEntry",
+          "rate": 3.00
+        }
+      ]
+    }
+  },
+  
+  {
     "CarParkID": "HDB_Y9",
     "apiProvider": "HDB",
     "apiCarParkID": "Y9",

@@ -287217,6 +287217,64 @@
   },
   
   {
+    "CarParkID": "CLARKCENTRALY",
+    "name": "Clarke Quay Central",
+    "country": "Singapore",
+    "lat": 1.288883,
+    "lng": 103.845986,
+    "capacity": 377,
+    "EVCharging": true,
+    "clearance": 2.2,
+    "address": "Clarke Quay Central, 6 Eu Tong Sen St, S(059817)",
+    "source": "",
+    "sourceUrl": "",
+    "photos": [
+      {
+        "type": "streetview",
+        "embedUrl": "https://www.google.com/maps/embed?pb=!4v1793427366608!6m8!1m7!1slQlE1f5bvue3CVdymq2RHg!2m2!1d1.288882486038714!2d103.8459459215326!3f79.79331295319491!4f-0.24816954437869754!5f0.4000000000000002",
+        "caption": "Google Street View"
+      }
+    ],
+    "ParkingRates": {
+      "gracePeriodMinutes": 10,
+      "monday-saturday": [
+        {
+          "from": "06:00",
+          "to": "17:00",
+          "billing": "tieredDuration",
+          "firstMinutes": 60,
+          "firstRate": 2.24,
+          "subsequentIntervalMinutes": 30,
+          "subsequentRate": 1.12,
+          "rounding": "up"
+        },
+        {
+          "from": "17:00",
+          "to": "06:00",
+          "billing": "perEntry",
+          "rate": 3.56
+        }
+      ],
+      "sunday": [
+        {
+          "from": "06:00",
+          "to": "17:59",
+          "billing": "perEntry",
+          "rate": 3.56
+        }
+      ],
+      "publicHoliday": [
+        {
+          "from": "06:00",
+          "to": "17:59",
+          "billing": "perEntry",
+          "rate": 3.56
+        }
+      ]
+    }
+  },
+  
+  {
     "CarParkID": "HDB_Y9",
     "apiProvider": "HDB",
     "apiCarParkID": "Y9",

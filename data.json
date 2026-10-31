@@ -83200,15 +83200,15 @@
 },
   
   {
-    "CarParkID": "HIGHSTREETPLAZA",
-    "name": "High Street Plaza",
+    "CarParkID": "HIGHSTREETCENTRE",
+    "name": "High Street Centre",
     "country": "Singapore",
     "lat": 1.289628,
     "lng": 103.849529,
     "capacity": 328,
     "EVCharging": false,
     "clearance": 2.03,
-    "address": "77, High Street, High Street Plaza, #04-05, S(179433)",
+    "address": "1 N Bridge Rd, S(179094)",
     "source": "",
     "sourceUrl": "",
     "photos": [
